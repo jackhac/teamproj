@@ -15,12 +15,12 @@
 <body>
 <div class="navbar">
 	<div class="navbar-inner">
-    	<a class="brand" href="http://buchdev.com/phpproj">PHP Project</a>
+    	<a class="brand" href="http://buchdev.com/teamproj">TEAM Project</a>
     	<ul class="nav">
-    		<li class="active"><a href="http://buchdev.com/phpproj">Home</a></li>
-    		<li><a href="http://www.buchdev.com/phpproj/prof">Professor</a></li>
-    		<li><a href="http://www.buchdev.com/phpproj/admin">Admin</a></li>
-    		<li><a href="http://www.buchdev.com/phpproj/documents">Documents</a></li>
+    		<li><a href="http://buchdev.com/teamproj/computers">Computers</a></li>
+    		<li><a href="http://www.buchdev.com/teamproj/compparts">Computer Parts</a></li>
+    		<li><a href="http://www.buchdev.com/teamproj/software">Software</a></li>
+    		<li><a href="http://www.buchdev.com/teamproj/vidgames">Video Games</a></li>
     	</ul>
     </div>
 </div>
