@@ -1,3 +1,6 @@
+<?php
+include "lock.php";
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,10 +17,23 @@
      </head>
 <body>
 <div class="container">
+
 <?php
 include "header.php";
+
 ?>
-<div id="myCarousel" class="carousel slide" >
+<?php
+if($loggedin==true)
+{
+echo "<div style='float:right'><a href='cart.php'>Shopping Cart</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='account.php'>My Account</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='logout.php'>Logout</a></div>";
+}
+else
+{
+echo "<div id='abc' style='float:right'><a href='cart.php'>Shopping Cart</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='login.php'>Login</a> or <a href='register.php'>Register</a></div><br><br>";
+}
+?>
+
+<div id="myCarousel" class="carousel slide" style="width:650px">
                 <!-- Carousel items -->
                 <div class="carousel-inner">
                 <div class="active item">
@@ -33,45 +49,47 @@ include "header.php";
                 <!-- Carousel nav -->
                 <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
                 <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                
     </div><!--End of Carousel-->
+
     <h4>Our Most Popular Categories</h4>
 	<div class="row">
 		<ul class="thumbnails">
 			<li class="span2">
-			<div class="thumbnail">
-				<img src="http://placehold.it/100x100"/>
-				<center><a>Laptops</a></center>
-			</div>
+			
+				<center><img src="http://placehold.it/100x100"/>
+				<a>Laptops</a></center>
+			
 			</li>
 			<li class="span2">
-			<div class="thumbnail">
-				<img src="http://placehold.it/100x100"/>
-				<center><a>Desktops</a></center>
-			</div>
+			
+				<center><img src="http://placehold.it/100x100"/>
+				<a>Desktops</a></center>
+			
 			</li>
 			<li class="span2">
-			<div class="thumbnail">
-				<img src="http://placehold.it/100x100"/>
-				<center><a>Monitors</a></center>
-			</div>
+			
+				<center><img src="http://placehold.it/100x100"/>
+				<a>Monitors</a></center>
+			
 			</li>
 			<li class="span2">
-			<div class="thumbnail">
-				<img src="http://placehold.it/100x100"/>
-				<center><a>Networking</a></center>
-			</div>
+			
+				<center><img src="http://placehold.it/100x100"/>
+				<a>Networking</a></center>
+			
 			</li>
 			<li class="span2">
-			<div class="thumbnail">
-				<img src="http://placehold.it/100x100"/>
-				<center><a>Gaming</a></center>
-			</div>
+			
+				<center><img src="http://placehold.it/100x100"/>
+				<a>Gaming</a></center>
+			
 			</li>
 			<li class="span2">
-			<div class="thumbnail">
-				<img src="http://placehold.it/100x100"/>
-				<center><a>Operating Systems</a></center>
-			</div>
+			
+				<center><img src="http://placehold.it/100x100"/>
+				<a>Operating Systems</a></center>
+			
 			</li>
 		</ul>
 	</div>
@@ -79,32 +97,27 @@ include "header.php";
 	<div class="row">
 		<ul class="thumbnails">
 			<li class="span3">
-			<div class="thumbnail">
-				<img src="http://placehold.it/150x150"/>
+				<center>
+				<img src="http://placehold.it/150x150"/></center><br>
 				<a>Item Name</a>
 				<h3 class="text-error">$99.99</h3>
-			</div>
+			
 			</li>
 			<li class="span3">
-			<div class="thumbnail">
-				<img src="http://placehold.it/150x150"/>
+			<center>
+				<img src="http://placehold.it/150x150"/></center><br>
 				<a>Item Name</a>
-				<h3 class="text-error">$99.99</h3>
-			</div>
-			</li>
+				<h3 class="text-error">$99.99</h3>			</li>
 			<li class="span3">
-			<div class="thumbnail">
-				<img src="http://placehold.it/150x150"/>
+			<center>
+				<img src="http://placehold.it/150x150"/></center><br>
 				<a>Item Name</a>
-				<h3 class="text-error">$99.99</h3>
-			</div>
-			</li>
+				<h3 class="text-error">$99.99</h3>			</li>
 			<li class="span3">
-			<div class="thumbnail">
-				<img src="http://placehold.it/150x150"/>
+			<center>
+				<img src="http://placehold.it/150x150"/></center><br>
 				<a>Item Name</a>
 				<h3 class="text-error">$99.99</h3>
-			</div>
 			</li>
 		</ul>
 	</div>
@@ -112,32 +125,28 @@ include "header.php";
 	<div class="row">
 		<ul class="thumbnails">
 			<li class="span3">
-			<div class="thumbnail">
-				<img src="http://placehold.it/150x150"/>
+			<center>
+				<img src="http://placehold.it/150x150"/></center><br>
 				<a>Item Name</a>
 				<h3 class="text-error">$99.99</h3>
-			</div>
 			</li>
 			<li class="span3">
-			<div class="thumbnail">
-				<img src="http://placehold.it/150x150"/>
+			<center>
+				<img src="http://placehold.it/150x150"/></center><br>
 				<a>Item Name</a>
 				<h3 class="text-error">$99.99</h3>
-			</div>
 			</li>
 			<li class="span3">
-			<div class="thumbnail">
-				<img src="http://placehold.it/150x150"/>
+			<center>
+				<img src="http://placehold.it/150x150"/></center><br>
 				<a>Item Name</a>
 				<h3 class="text-error">$99.99</h3>
-			</div>
 			</li>
 			<li class="span3">
-			<div class="thumbnail">
-				<img src="http://placehold.it/150x150"/>
+			<center>
+				<img src="http://placehold.it/150x150"/></center><br>
 				<a>Item Name</a>
 				<h3 class="text-error">$99.99</h3>
-			</div>
 			</li>
 		</ul>
 	</div>

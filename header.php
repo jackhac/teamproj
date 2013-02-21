@@ -17,10 +17,10 @@
 	<div class="navbar-inner">
     	<a class="brand" href="http://buchdev.com/teamproj">TEAM Project</a>
     	<ul class="nav">
-    		<li><a href="http://buchdev.com/teamproj/computers">Computers</a></li>
-    		<li><a href="http://www.buchdev.com/teamproj/compparts">Computer Parts</a></li>
-    		<li><a href="http://www.buchdev.com/teamproj/software">Software</a></li>
-    		<li><a href="http://www.buchdev.com/teamproj/vidgames">Video Games</a></li>
+    		<li><a href="http://buchdev.com/teamproj/computers.php">Computers</a></li>
+    		<li><a href="http://www.buchdev.com/teamproj/compparts.php">Computer Parts</a></li>
+    		<li><a href="http://www.buchdev.com/teamproj/software.php">Software</a></li>
+    		<li><a href="http://www.buchdev.com/teamproj/vidgames.php">Video Games</a></li>
     	</ul>
     </div>
 </div>
