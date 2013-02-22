@@ -57,38 +57,38 @@ echo "<div id='abc' style='float:right'><a href='cart.php'>Shopping Cart</a>&nbs
 		<ul class="thumbnails">
 			<li class="span2">
 			
-				<center><img src="http://placehold.it/100x100"/>
-				<a>Laptops</a></center>
+				<center><a href="laptops.php"><img src="img/home_laptops.jpg"/>
+				Laptops</a></center>
 			
 			</li>
 			<li class="span2">
 			
-				<center><img src="http://placehold.it/100x100"/>
-				<a>Desktops</a></center>
+				<center><a href="desktops.php"><img src="img/home_desktops2.jpg"/>
+				Desktops</a></center>
 			
 			</li>
 			<li class="span2">
 			
-				<center><img src="http://placehold.it/100x100"/>
-				<a>Monitors</a></center>
+				<center><a href="monitors.php"><img src="img/home_monitors.jpg"/>
+				Monitors</a></center>
 			
 			</li>
 			<li class="span2">
 			
-				<center><img src="http://placehold.it/100x100"/>
-				<a>Networking</a></center>
+				<center><a href="networking.php"><img src="img/home_networking.jpg"/>
+				Networking</a></center>
 			
 			</li>
 			<li class="span2">
 			
-				<center><img src="http://placehold.it/100x100"/>
-				<a>Gaming</a></center>
+				<center><a href="gaming.php"><img src="img/xbox.jpg"/>
+				Gaming</a></center>
 			
 			</li>
 			<li class="span2">
 			
-				<center><img src="http://placehold.it/100x100"/>
-				<a>Operating Systems</a></center>
+				<center><a href="printers.php"><img src="img/home_printers.jpg"/>
+				Printers</a></center>
 			
 			</li>
 		</ul>

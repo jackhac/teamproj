@@ -2,14 +2,14 @@
 	include "functions.inc.php";
 	
 	$pid=$_GET['item'];
+	$qty2=$_GET["qty$pid"];
 	
-	if (($_GET['delete']==1)&&(isset($_GET['item'])))
+	if (($_GET['update']==1)&&(isset($_GET['item'])))
 	{
-		remove_product($pid);
+		updateCart($pid,$qty2);
 	}
 
 ?>
-
 <html>
 <head>
     <title>TEAM Project</title>

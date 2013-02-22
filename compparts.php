@@ -31,11 +31,13 @@ echo "<div id='abc' style='float:right'><a href='cart.php'>Shopping Cart</a>&nbs
 		<div class="span2">
 			<ul class="nav nav-list">
 				<li class="nav-header">Computer Parts</li>
-				<li><a href="#">Video Cards</a></li>
-				<li><a href="#">Hard Drives</a></li>
-				<li><a href="#">Monitors</a></li>
-				<li><a href="#">Networking</a></li>
-				<li><a href="#">Printers</a></li>
+				<li><a href="videocards.php">Video Cards</a></li>
+				<li><a href="harddrives.php">Hard Drives</a></li>
+				<li><a href="monitors.php">Monitors</a></li>
+				<li><a href="networking.php">Networking</a></li>
+				<li><a href="printers.php">Printers</a></li>
+				<li><a href="cpus.php">Processors/CPUs</a></li>
+				<li><a href="memory.php">Memory/RAM</a></li>
 			</ul>
 		</div>
 		<div class="span10">
@@ -51,20 +53,20 @@ echo "<div id='abc' style='float:right'><a href='cart.php'>Shopping Cart</a>&nbs
 				
 			</li>
 			<li class="span2">
-				<center><img src="http://placehold.it/100x100"/><br>
-				<a>Video Cards</a></center>
+				<center><a href="videocards.php"><img src="img/cat-video-cards.jpg"/><br>
+				Video Cards</a></center>
 			</li>
 			<li class="span2">
-				<center><img src="http://placehold.it/100x100"/><br>
-				<a>Hard Drives</a></center>
+				<center><a href="harddrives.php"><img src="img/cat-hard-drives.jpg"/><br>
+				Hard Drives</a></center>
 			</li>
 			<li class="span2">
-				<center><img src="http://placehold.it/100x100"/><br>
-				<a>Monitors</a></center>
+				<center><a href="monitors.php"><img src="img/grey/cat-monitors.jpg"/><br>
+				Monitors</a></center>
 			</li>
 			<li class="span2">
-				<center><img src="http://placehold.it/100x100"/><br>
-				<a>Networking</a></center>
+				<center><a href="networking.php"><img src="img/grey/cat-networking.jpg"/><br>
+				Networking</a></center>
 			</li>
 		</ul>
 	</div>
@@ -74,8 +76,16 @@ echo "<div id='abc' style='float:right'><a href='cart.php'>Shopping Cart</a>&nbs
 				
 			</li>
 			<li class="span2">
-				<center><img src="http://placehold.it/100x100"/>
-				<a>Printers</a></center>
+				<center><a href="printers.php"><img src="img/grey/cat-printers.jpg"/>
+				Printers</a></center>
+			</li>
+			<li class="span2">
+				<center><a href="cpus.php"><img src="img/cat-cpus.jpg"/>
+				Processors/CPUs</a></center>
+			</li>
+			<li class="span2">
+				<center><a href="memory.php"><img src="img/cat-memory.jpg"/>
+				Memory/RAM</a></center>
 			</li>
 		</ul>
 	</div>

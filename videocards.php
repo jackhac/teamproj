@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Laptops</title>
+    <title>Video Cards</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <style type="text/css">
@@ -42,37 +42,48 @@ echo "<div id='abc' style='float:right'><a href='cart.php'>Shopping Cart</a>&nbs
 				<li><a href="#">$1500 to $2000</a></li>
 				<li class="divider"></li>
 				<li class="nav-header">Manufacturers</li>
-				<li><a href="#">Acer</a></li>
-				<li><a href="#">Samsung</a></li>
-				<li><a href="#">Toshiba</a></li>
-				<li><a href="#">Dell</a></li>
-				<li><a href="#">Apple</a></li>
-				<li><a href="#">HP</a></li>
+				<li><a href="#">EVGA</a></li>
+				<li><a href="#">XFX</a></li>
+				<li><a href="#">PNY</a></li>
+				<li><a href="#">VisionTek</a></li>
+				<li><a href="#">Asus</a></li>
 				<li class="divider"></li>
-				<li class="nav-header">Processor Type</li>
-				<li><a href="#">Dual-Core</a></li>
-				<li><a href="#">Quad-Core</a></li>
-				<li><a href="#">Single-Core</a></li>
+				<li class="nav-header">Interface Type</li>
+				<li><a href="#">PCI Express 2.0</a></li>
+				<li><a href="#">PCI Express 3.0</a></li>
+				<li><a href="#">PCI Express 2.1</a></li>
+				<li><a href="#">PCI Express</a></li>
 				<li class="divider"></li>
 				<li class="nav-header">Processor Brand</li>
 				<li><a href="#">Intel</a></li>
 				<li><a href="#">AMD</a></li>
 				<li><a href="#">NVIDIA</a></li>
 				<li class="divider"></li>
-				
+				<li class="nav-header">Chipset</li>
+				<li><a href="#">NVIDIA GeForce</a></li>
+				<li><a href="#">AMD Radeon</a></li>
+				<li><a href="#">NVIDIA Quadro</a></li>
+				<li><a href="#">ATI Radeon</a></li>
+				<li class="divider"></li>
+				<li class="nav-header">Memory Type</li>
+				<li><a href="#">GDDR5</a></li>
+				<li><a href="#">DDR3</a></li>
+				<li><a href="#">GDDR3</a></li>
+				<li><a href="#">DDR2</a></li>
+				<li><a href="#">DDR5</a></li>
+				<li class="divider"></li>
 			</ul>
 		</div>
 		<div class="span10">
 			<ul class="breadcrumb">
 				<li><a href="index.php">Home</a> <span class="divider">/</span></li>
-				<li><a href="computers.php">Computers</a><span class="divider">/ </li>
-				<li class="active"><a href="laptops.php">Laptops</a></li>
+				<li><a href="compparts.php">Computer Parts</a><span class="divider">/ </li>
+				<li class="active"><a href="videocards.php">Video Cards</a></li>
 			</ul>
-			<h3>Laptops</h3>
+			<h3>Video Cards</h3>
   		<div class="well">
   		<div class="row">
 		<ul class="thumbnails">
-			
 			<li class="span3">
 				<center>
 				<img src="http://placehold.it/150x150"/></center><br>

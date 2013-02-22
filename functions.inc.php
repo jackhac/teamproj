@@ -19,6 +19,19 @@
 		}
 	}
 	
+	function updateCart($pid,$q)
+	{
+		if($pid<1 or $q<1) return;
+		if(product_exists($pid))
+		{
+			$_SESSION['cart'][$pid]['qty']=$q;
+		}
+		else
+		{
+			echo "error";
+		}
+	}
+	
 	function displayCart()
 	{
 		if(is_array($_SESSION['cart']))
@@ -37,10 +50,13 @@
 						echo "Item Name";
 					echo "</td>";
 					echo "<td>";
-						echo $proqty;
+						echo "<input type='text' name='qty$i' value='$proqty'>";
 					echo "</td>";
 					echo "<td>";
 						echo "<a href='cart.php?item=$proid&delete=1'>Delete</a>";
+					echo "</td>";
+					echo "<td>";
+						echo "<a href='cart.php?item=$proid&update=1'>Update</a>";
 					echo "</td>";
 				echo "</tr>";
 			}

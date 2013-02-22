@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Computers</title>
+    <title>Video Games</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <style type="text/css">
@@ -30,40 +30,40 @@ echo "<div id='abc' style='float:right'><a href='cart.php'>Shopping Cart</a>&nbs
 	<div class="row">
 		<div class="span2">
 			<ul class="nav nav-list">
-				<li class="nav-header">Computers</li>
-				<li><a href="laptops.php">Laptops</a></li>
-				<li><a href="ultrabooks.php">Ultrabooks</a></li>
-				<li><a href="servers.php">Servers</a></li>
-				<li><a href="desktops.php">Desktops</a></li>
+				<li class="nav-header">Video Games</li>
+				<li><a href="xbox360.php">XBOX 360</a></li>
+				<li><a href="ps3.php">PS3</a></li>
+				<li><a href="wii.php">Wii</a></li>
+				<li><a href="pc.php">PC</a></li>
 			</ul>
 		</div>
 		<div class="span10">
 			<ul class="breadcrumb">
 				<li><a href="index.php">Home</a> <span class="divider">/</span></li>
-				<li class="active"><a href="computers.php">Computers</a> </li>
+				<li class="active"><a href="videogames.php">Video Games</a> </li>
 			</ul>
-			<h3>Computer Categories</h3>
+			<h3>Video Games Categories</h3>
   		<div class="well">
   		<div class="row">
 		<ul class="thumbnails">
-			<li class="span1">
+		<li class="span1">
 				
 			</li>
 			<li class="span2">
-				<center><a href="laptops.php"><img src="img/grey/cat-notebooks.jpg" />
-				Laptops</a></center>
+				<center><a href="xbox360.php"><img src="img/grey/cat-xbox360_new.jpg"/><br>
+				XBOX 360</a></center>
 			</li>
 			<li class="span2">
-				<center><a href="ultrabooks.php"><img src="img/grey/cat-ultrabooks.jpg"/>
-				Ultrabooks</a></center>
+				<center><a href="ps3.php"><img src="img/grey/cat-ps3_new.jpg"/><br>
+				PS3</a></center>
 			</li>
 			<li class="span2">
-				<center><a href="servers.php"><img src="img/grey/cat-servers.jpg"/>
-				Servers</a></center>
+				<center><a href="wii.php"><img src="img/grey/cat-wii.jpg"/><br>
+				Wii</a></center>
 			</li>
 			<li class="span2">
-				<center><a href="desktops.php"><img src="img/grey/cat-desktops.jpg"/>
-				Desktops</a></center>
+				<center><a href="pc.php"><img src="img/cat-PCgames.jpg"/><br>
+				PC</a></center>
 			</li>
 		</ul>
 	</div>
