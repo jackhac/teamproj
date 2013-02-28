@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Video Cards</title>
+    <title>XBOX 360</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <style type="text/css">
@@ -42,45 +42,21 @@ echo "<div id='abc' style='float:right'><a href='cart.php'>Shopping Cart</a>&nbs
 				<li><a href="#">$1500 to $2000</a></li>
 				<li class="divider"></li>
 				<li class="nav-header">Manufacturers</li>
-				<li><a href="#">EVGA</a></li>
-				<li><a href="#">XFX</a></li>
-				<li><a href="#">PNY</a></li>
-				<li><a href="#">VisionTek</a></li>
-				<li><a href="#">Asus</a></li>
-				<li class="divider"></li>
-				<li class="nav-header">Interface Type</li>
-				<li><a href="#">PCI Express 2.0</a></li>
-				<li><a href="#">PCI Express 3.0</a></li>
-				<li><a href="#">PCI Express 2.1</a></li>
-				<li><a href="#">PCI Express</a></li>
-				<li class="divider"></li>
-				<li class="nav-header">Processor Brand</li>
-				<li><a href="#">Intel</a></li>
-				<li><a href="#">AMD</a></li>
-				<li><a href="#">NVIDIA</a></li>
-				<li class="divider"></li>
-				<li class="nav-header">Chipset</li>
-				<li><a href="#">NVIDIA GeForce</a></li>
-				<li><a href="#">AMD Radeon</a></li>
-				<li><a href="#">NVIDIA Quadro</a></li>
-				<li><a href="#">ATI Radeon</a></li>
-				<li class="divider"></li>
-				<li class="nav-header">Memory Type</li>
-				<li><a href="#">GDDR5</a></li>
-				<li><a href="#">DDR3</a></li>
-				<li><a href="#">GDDR3</a></li>
-				<li><a href="#">DDR2</a></li>
-				<li><a href="#">DDR5</a></li>
-				<li class="divider"></li>
+				<li><a href="#">Microsoft</a></li>
+				<li><a href="#">Microsoft XBOX</a></li>
+				<li><a href="#">Dreamgear</a></li>
+				<li><a href="#">NOX</a></li>
+				<li><a href="#">Mad Catz</a></li>
+				
 			</ul>
 		</div>
 		<div class="span10">
 			<ul class="breadcrumb">
 				<li><a href="index.php">Home</a> <span class="divider">/</span></li>
-				<li><a href="compparts.php">Computer Parts</a><span class="divider">/ </li>
-				<li class="active"><a href="videocards.php">Video Cards</a></li>
+				<li><a href="videogames.php">Video Games</a> <span class="divider">/</span></li>
+				<li class="active"><a href="xbox360.php">XBOX 360</a></li>
 			</ul>
-			<h3>Video Cards</h3>
+			<h3>XBOX 360</h3>
   		<div class="well">
   		<div class="row">
 		<ul class="thumbnails">

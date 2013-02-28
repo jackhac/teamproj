@@ -81,7 +81,7 @@ echo "<div id='abc' style='float:right'><a href='cart.php'>Shopping Cart</a>&nbs
 			</li>
 			<li class="span2">
 			
-				<center><a href="gaming.php"><img src="img/xbox.jpg"/>
+				<center><a href="videogames.php"><img src="img/xbox.jpg"/>
 				Gaming</a></center>
 			
 			</li>
@@ -98,25 +98,25 @@ echo "<div id='abc' style='float:right'><a href='cart.php'>Shopping Cart</a>&nbs
 		<ul class="thumbnails">
 			<li class="span3">
 				<center>
-				<img src="http://placehold.it/150x150"/></center><br>
-				<a>Item Name</a>
+				<a href="item.php"><img src="http://placehold.it/150x150"/></center><br>
+				Item Name</a>
 				<h3 class="text-error">$99.99</h3>
 			
 			</li>
 			<li class="span3">
 			<center>
-				<img src="http://placehold.it/150x150"/></center><br>
-				<a>Item Name</a>
+				<a href="item.php"><img src="http://placehold.it/150x150"/></center><br>
+				Item Name</a>
 				<h3 class="text-error">$99.99</h3>			</li>
 			<li class="span3">
 			<center>
-				<img src="http://placehold.it/150x150"/></center><br>
-				<a>Item Name</a>
+				<a href="item.php"><img src="http://placehold.it/150x150"/></center><br>
+				Item Name</a>
 				<h3 class="text-error">$99.99</h3>			</li>
 			<li class="span3">
 			<center>
-				<img src="http://placehold.it/150x150"/></center><br>
-				<a>Item Name</a>
+				<a href="item.php"><img src="http://placehold.it/150x150"/></center><br>
+				Item Name</a>
 				<h3 class="text-error">$99.99</h3>
 			</li>
 		</ul>
@@ -126,26 +126,26 @@ echo "<div id='abc' style='float:right'><a href='cart.php'>Shopping Cart</a>&nbs
 		<ul class="thumbnails">
 			<li class="span3">
 			<center>
-				<img src="http://placehold.it/150x150"/></center><br>
-				<a>Item Name</a>
+				<a href="item.php"><img src="http://placehold.it/150x150"/></center><br>
+				Item Name</a>
 				<h3 class="text-error">$99.99</h3>
 			</li>
 			<li class="span3">
 			<center>
-				<img src="http://placehold.it/150x150"/></center><br>
-				<a>Item Name</a>
+				<a href="item.php"><img src="http://placehold.it/150x150"/></center><br>
+				Item Name</a>
 				<h3 class="text-error">$99.99</h3>
 			</li>
 			<li class="span3">
 			<center>
-				<img src="http://placehold.it/150x150"/></center><br>
-				<a>Item Name</a>
+				<a href="item.php"><img src="http://placehold.it/150x150"/></center><br>
+				Item Name</a>
 				<h3 class="text-error">$99.99</h3>
 			</li>
 			<li class="span3">
 			<center>
-				<img src="http://placehold.it/150x150"/></center><br>
-				<a>Item Name</a>
+				<a href="item.php"><img src="http://placehold.it/150x150"/></center><br>
+				Item Name</a>
 				<h3 class="text-error">$99.99</h3>
 			</li>
 		</ul>

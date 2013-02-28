@@ -1,12 +1,17 @@
 <?php
 	include "functions.inc.php";
-	
+	session_start();
 	$pid=$_GET['item'];
 	$qty2=$_GET["qty$pid"];
 	
 	if (($_GET['update']==1)&&(isset($_GET['item'])))
 	{
-		updateCart($pid,$qty2);
+		//updateCart($pid,$qty2);
+	}
+	
+	if (($_GET['delete']==1)&&(isset($_GET['item'])))
+	{
+		remove_product($pid);
 	}
 
 ?>
@@ -43,6 +48,7 @@ echo "<div id='abc' style='float:right'><a href='cart.php'>Shopping Cart</a>&nbs
 	<div class="well">
 		<?php
 			include "functions.inc.php";
+			
 			displayCart();
 		?>
 	</div>

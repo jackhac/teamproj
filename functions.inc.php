@@ -1,7 +1,25 @@
 <?php
 
+	function isDisableButton($pid)
+	{	$buttonDisable=false;
+		$max=count($_SESSION['cart']);
+		for($i=0;$i<$max;$i++)
+		{
+			$id=$_SESSION['cart'][$i]['productid'];
+			if ($pid==$id)
+			{
+				$buttonDisable=true;
+			}
+		}
+		if ($buttonDisable==true)
+		{
+			echo "disabled='disabled'";
+		}
+	}
+
 	function addToCart($pid,$q)
 	{
+	//session_start();
 		if ($pid<1 or $q<1) return;
 		
 		if(is_array($_SESSION['cart']))
@@ -21,6 +39,7 @@
 	
 	function updateCart($pid,$q)
 	{
+		//session_start();
 		if($pid<1 or $q<1) return;
 		if(product_exists($pid))
 		{
@@ -34,14 +53,35 @@
 	
 	function displayCart()
 	{
+		
+		//session_start();
 		if(is_array($_SESSION['cart']))
 		{
 			$max=count($_SESSION['cart']);
+			
 			echo "<table>";
 			for($i=0;$i<$max;$i++)
 			{
 				$proid=$_SESSION['cart'][$i]['productid'];
 				$proqty=$_SESSION['cart'][$i]['qty'];
+				echo "<tr>";
+				
+				echo "</tr>";
+				echo "<td>";
+						echo "Product ID";
+					echo "</td>";
+					echo "<td>";
+						echo "Item Name";
+					echo "</td>";
+					echo "<td width='10px'>";
+						echo "Quantity";
+					echo "</td>";
+					echo "<td>";
+						//echo "Delete";
+					echo "</td>";
+					echo "<td>";
+						//echo "Update";
+					echo "</td>";
 				echo "<tr>";
 					echo "<td>";
 						echo $proid;
@@ -49,14 +89,14 @@
 					echo "<td>";
 						echo "Item Name";
 					echo "</td>";
-					echo "<td>";
+					echo "<td width='10px'>";
 						echo "<input type='text' name='qty$i' value='$proqty'>";
 					echo "</td>";
 					echo "<td>";
 						echo "<a href='cart.php?item=$proid&delete=1'>Delete</a>";
 					echo "</td>";
 					echo "<td>";
-						echo "<a href='cart.php?item=$proid&update=1'>Update</a>";
+						//echo "<a href='cart.php?item=$proid&update=1'>Update</a>";
 					echo "</td>";
 				echo "</tr>";
 			}

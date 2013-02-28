@@ -1,11 +1,17 @@
 <?php
 	include "functions.inc.php";
-	
+	session_start();
 	$pid2=$_GET['pid'];
 	
-	if (isset($_GET['pid']))
+	if (!isset($_GET['pid']))
 	{
-		if ($pid2<1) return;
+		header("Location: item.php?pid=1");
+	}
+	
+	if ($_GET['addcart']==1)
+	{
+		addToCart($pid2,1);
+		//echo "test";
 	}
 
 ?>
@@ -53,7 +59,10 @@ echo "<div id='abc' style='float:right'><a href='cart.php'>Shopping Cart</a>&nbs
 				</div>
 				<div class="span3">
 					<div class="well">
-					<a><button class="btn btn-success btn-large">ADD TO CART</button></a>
+					<center><a href="item.php?pid=<?php echo $pid2;?>&addcart=1"><button class="btn btn-success btn-large" <?php
+					isDisableButton($pid2);
+					?>
+					>ADD TO CART</button></a></center>
 					</div>
 					
 				</div>
