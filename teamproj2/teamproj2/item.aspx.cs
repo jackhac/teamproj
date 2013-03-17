@@ -27,11 +27,14 @@ namespace teamproj2
             if (addcart == "1")
             {
                 ArrayList cartItems = new ArrayList();
-                //cartItems = (ArrayList)Session["cartItem"];
-                Item item1 = new Item(pid2);
 
+                if ((ArrayList)Session["cartItem"] != null)
+                {
+                    cartItems = (ArrayList)Session["cartItem"];
+                }
+                Item item1 = new Item(pid2);
                 
-                    cartItems.Add(item1);
+                cartItems.Add(item1);
                 
 
                 Session["cartItem"] = cartItems;
