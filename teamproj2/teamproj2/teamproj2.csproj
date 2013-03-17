@@ -54,6 +54,7 @@
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <Content Include="cart.aspx" />
     <Content Include="compparts.aspx" />
     <Content Include="computers.aspx" />
     <Content Include="css\bootstrap-responsive.css" />
@@ -85,9 +86,12 @@
     <Content Include="img\home_networking.jpg" />
     <Content Include="img\home_printers.jpg" />
     <Content Include="img\xbox.jpg" />
+    <Content Include="item.aspx" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="laptops.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="register.aspx" />
     <Content Include="test.aspx" />
     <Content Include="videocards.aspx" />
     <Content Include="videogames.aspx" />
@@ -101,6 +105,13 @@
     <Content Include="xbox360.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cart.aspx.cs">
+      <DependentUpon>cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cart.aspx.designer.cs">
+      <DependentUpon>cart.aspx</DependentUpon>
+    </Compile>
     <Compile Include="compparts.aspx.cs">
       <DependentUpon>compparts.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -122,6 +133,14 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="item.aspx.cs">
+      <DependentUpon>item.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="item.aspx.designer.cs">
+      <DependentUpon>item.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Item.cs" />
     <Compile Include="laptops.aspx.cs">
       <DependentUpon>laptops.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -129,7 +148,21 @@
     <Compile Include="laptops.aspx.designer.cs">
       <DependentUpon>laptops.aspx</DependentUpon>
     </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
