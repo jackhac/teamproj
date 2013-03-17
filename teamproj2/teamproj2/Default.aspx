@@ -7,13 +7,13 @@
                 <!-- Carousel items -->
                 <div class="carousel-inner">
                 <div class="active item">
-                    <img src="http://placehold.it/650x250">
+                    <img src="img/featurespot-g_T71-11133CASUB.jpg">
                 </div>
                 <div class="item">
-                    <img src="http://placehold.it/650x250">
+                    <img src="img/featurespot-p_B69-0997.jpg">
                 </div>
                 <div class="item">
-                    <img src="http://placehold.it/650x250">
+                    <img src="img/featurespot-stpat_I750-4200CA.jpg">
                 </div>
                 </div>
                 <!-- Carousel nav -->
@@ -67,26 +67,26 @@
 		<ul class="thumbnails">
 			<li class="span3">
 				<center>
-				<a href="item.aspx"><img src="http://placehold.it/150x150"/></center><br>
-				Item Name</a>
-				<h3 class="text-error">$99.99</h3>
+				<a href="item.aspx?pid=2"><img src="<%displayPicture(2);%>"/></center><br>
+				<%displayName(2); %></a>
+				<h3 class="text-error"><%displayPrice(2); %></h3>
 			
 			</li>
 			<li class="span3">
 			<center>
-				<a href="item.aspx"><img src="http://placehold.it/150x150"/></center><br>
-				Item Name</a>
-				<h3 class="text-error">$99.99</h3>			</li>
+				<a href="item.aspx?pid=1"><img src="<%displayPicture(1);%>"/></center><br>
+				<%displayName(1); %></a>
+				<h3 class="text-error"><%displayPrice(1); %></h3>			</li>
 			<li class="span3">
 			<center>
-				<a href="item.aspx"><img src="http://placehold.it/150x150"/></center><br>
-				Item Name</a>
-				<h3 class="text-error">$99.99</h3>			</li>
+				<a href="item.aspx?pid=2"><img src="<%displayPicture(2);%>"/></center><br>
+				<%displayName(2); %></a>
+				<h3 class="text-error"><%displayPrice(2); %></h3>			</li>
 			<li class="span3">
 			<center>
-				<a href="item.aspx"><img src="http://placehold.it/150x150"/></center><br>
-				Item Name</a>
-				<h3 class="text-error">$99.99</h3>
+				<a href="item.aspx?pid=1"><img src="<%displayPicture(1);%>"/></center><br>
+				<%displayName(1); %></a>
+				<h3 class="text-error"><%displayPrice(1); %></h3>
 			</li>
 		</ul>
 	</div>
@@ -95,27 +95,27 @@
 		<ul class="thumbnails">
 			<li class="span3">
 			<center>
-				<a href="item.aspx"><img src="http://placehold.it/150x150"/></center><br>
-				Item Name</a>
-				<h3 class="text-error">$99.99</h3>
+				<a href="item.aspx?pid=1"><img src="<%displayPicture(1);%>"/></center><br>
+				<%displayName(1); %></a>
+				<h3 class="text-error"><%displayPrice(1); %></h3>
 			</li>
 			<li class="span3">
 			<center>
-				<a href="item.aspx"><img src="http://placehold.it/150x150"/></center><br>
-				Item Name</a>
-				<h3 class="text-error">$99.99</h3>
+				<a href="item.aspx?pid=2"><img src="<%displayPicture(2);%>"/></center><br>
+				<%displayName(2); %></a>
+				<h3 class="text-error"><%displayPrice(2); %></h3>
 			</li>
 			<li class="span3">
 			<center>
-				<a href="item.aspx"><img src="http://placehold.it/150x150"/></center><br>
-				Item Name</a>
-				<h3 class="text-error">$99.99</h3>
+				<a href="item.aspx?pid=1"><img src="<%displayPicture(1);%>"/></center><br>
+				<%displayName(1); %></a>
+				<h3 class="text-error"><%displayPrice(1); %></h3>
 			</li>
 			<li class="span3">
 			<center>
-				<a href="item.aspx"><img src="http://placehold.it/150x150"/></center><br>
-				Item Name</a>
-				<h3 class="text-error">$99.99</h3>
+				<a href="item.aspx?pid=2"><img src="<%displayPicture(2);%>"/></center><br>
+				<%displayName(2); %></a>
+				<h3 class="text-error"><%displayPrice(2); %></h3>
 			</li>
 		</ul>
 	</div>

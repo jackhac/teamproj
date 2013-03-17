@@ -18,7 +18,7 @@
         
 		<div class="span10">
 			<ul class="breadcrumb">
-				<li><a href="index.aspx">Home</a> <span class="divider">/</span></li>
+				<li><a href="default.aspx">Home</a> <span class="divider">/</span></li>
 				<li class="active"><a href="compparts.aspx">Computer Parts</a> </li>
 			</ul>
 			<h3>Computer Parts Categories</h3>

@@ -32,23 +32,26 @@ namespace teamproj2
                 ArrayList cartItems = (ArrayList)Session["cartItem"];
 
                 int numCartItems =cartItems.Count;
+                decimal alltotal = 0;
 
                 Response.Write("<table>");
-                Response.Write("<tr><th>Name</th><th>Description</th><th>Quantity</th><th>Price</th><th>Total</th></tr>");
+                Response.Write("<tr><th>Name</th><th>Quantity</th><th>Price</th><th>Total</th></tr>");
 
                 for (int i = 0; i < numCartItems; i++)
                 {
                     Item item=(Item)cartItems[i];
-
+                    int id2 = item.Id;
                     int quant = item.Quant;
                     string name = item.Name;
                     string desc = item.Desc;
                     decimal price = item.Price;
-                    
-                    Response.Write("<tr><td>"+ name +"</td><td>"+ desc + "</td><td>"+ quant +"</td><td>"+ price +"</td><td>Total</td></tr>");
+                    decimal total = item.Total;
+                    alltotal += total;
+                    Response.Write("<tr><td><a href='item.aspx?pid=" + id2 + "'>" + name + "</a></td><td align='center'>" + quant + "</td><td>" + String.Format("{0:C}", price) + "</td><td>" + String.Format("{0:C}", total) + "</td></tr>");
                     
                 }
-
+                Response.Write("<tr><td></td><td></td><td></td><td>" + String.Format("{0:C}", alltotal) + "</td></tr>");
+                    
                 Response.Write("</table>");
             }
         }

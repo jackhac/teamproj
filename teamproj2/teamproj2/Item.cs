@@ -15,6 +15,12 @@ namespace teamproj2
         public string Name { get; set; }
         public string Desc { get; set; }
         public int Quant { get; set; }
+        public decimal Total { get; set; }
+        public string Picture { get; set; }
+        public int MCategory { get; set; }
+        public string MCategory2 { get; set; }
+        public int SCategory { get; set; }
+        public string SCategory2 { get; set; }
 
         public Item()
         {
@@ -36,7 +42,18 @@ namespace teamproj2
             this.Name = (string)rdr[1];
             this.Desc = (string)rdr[2];
             this.Price = (decimal)rdr[3];
+            this.Total = (decimal)rdr[3];
+            this.Picture = (string)rdr[4];
+            this.MCategory = (int)rdr[5];
+            this.SCategory = (int)rdr[6];
+            this.Quant = 1;
             con.Close();
+
+            MCategory mc = new MCategory(this.MCategory);
+            this.MCategory2 = mc.Name;
+
+            SCategory sc = new SCategory(this.MCategory, this.SCategory);
+            this.SCategory2 = sc.Name;
         }
     }
 }

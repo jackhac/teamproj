@@ -51,7 +51,7 @@
 		</div>
 		<div class="span10">
 			<ul class="breadcrumb">
-				<li><a href="index.aspx">Home</a> <span class="divider">/</span></li>
+				<li><a href="default.aspx">Home</a> <span class="divider">/</span></li>
 				<li><a href="compparts.aspx">Computer Parts</a><span class="divider">/ </li>
 				<li class="active"><a href="videocards.aspx">Video Cards</a></li>
 			</ul>

@@ -14,7 +14,7 @@
 		</div>
 		<div class="span10">
 			<ul class="breadcrumb">
-				<li><a href="index.aspx">Home</a> <span class="divider">/</span></li>
+				<li><a href="default.aspx">Home</a> <span class="divider">/</span></li>
 				<li class="active"><a href="videogames.aspx">Video Games</a> </li>
 			</ul>
 			<h3>Video Games Categories</h3>
