@@ -29,15 +29,15 @@
 				XBOX 360</a></center>
 			</li>
 			<li class="span2">
-				<center><a href="ps3.aspx"><img src="img/grey/cat-ps3_new.jpg"/><br>
+				<center><a href="ps3s.aspx"><img src="img/grey/cat-ps3_new.jpg"/><br>
 				PS3</a></center>
 			</li>
 			<li class="span2">
-				<center><a href="wii.aspx"><img src="img/grey/cat-wii.jpg"/><br>
+				<center><a href="wiis.aspx"><img src="img/grey/cat-wii.jpg"/><br>
 				Wii</a></center>
 			</li>
 			<li class="span2">
-				<center><a href="pc.aspx"><img src="img/cat-PCgames.jpg"/><br>
+				<center><a href="pcs.aspx"><img src="img/cat-PCgames.jpg"/><br>
 				PC</a></center>
 			</li>
 		</ul>

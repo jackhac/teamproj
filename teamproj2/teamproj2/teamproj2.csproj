@@ -55,6 +55,7 @@
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
     <Content Include="cart.aspx" />
+    <Content Include="checkout.aspx" />
     <Content Include="compparts.aspx" />
     <Content Include="computers.aspx" />
     <Content Include="CPUs.aspx" />
@@ -64,8 +65,10 @@
     <Content Include="css\bootstrap.min.css" />
     <Content Include="Default.aspx" />
     <Content Include="desktops.aspx" />
+    <Content Include="harddrives.aspx" />
     <Content Include="img\10234992.jpg" />
     <Content Include="img\10238849.jpg" />
+    <Content Include="img\A204.jpg" />
     <Content Include="img\A50.jpg" />
     <Content Include="img\C122.jpg" />
     <Content Include="img\cat-cpus.jpg" />
@@ -73,6 +76,8 @@
     <Content Include="img\cat-memory.jpg" />
     <Content Include="img\cat-PCgames.jpg" />
     <Content Include="img\cat-video-cards.jpg" />
+    <Content Include="img\E57.jpg" />
+    <Content Include="img\E888.jpg" />
     <Content Include="img\featurespot-g_T71-11133CASUB.jpg" />
     <Content Include="img\featurespot-p_B69-0997.jpg" />
     <Content Include="img\featurespot-stpat_I750-4200CA.jpg" />
@@ -89,19 +94,31 @@
     <Content Include="img\grey\cat-wii.jpg" />
     <Content Include="img\grey\cat-xbox360_new.jpg" />
     <Content Include="img\grey\xbox.jpg" />
+    <Content Include="img\H24.jpg" />
     <Content Include="img\home_desktops2.jpg" />
     <Content Include="img\home_laptops.jpg" />
     <Content Include="img\home_monitors.jpg" />
     <Content Include="img\home_networking.jpg" />
     <Content Include="img\home_printers.jpg" />
+    <Content Include="img\I69.jpg" />
+    <Content Include="img\K24.jpg" />
     <Content Include="img\M17-9560.jpg" />
+    <Content Include="img\M85.jpg" />
+    <Content Include="img\N100.jpg" />
     <Content Include="img\T71.jpg" />
+    <Content Include="img\W10.jpg" />
     <Content Include="img\xbox.jpg" />
     <Content Include="item.aspx" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="laptops.aspx" />
     <Content Include="login.aspx" />
+    <Content Include="memory.aspx" />
+    <Content Include="monitors.aspx" />
+    <Content Include="networking.aspx" />
+    <Content Include="pcs.aspx" />
+    <Content Include="printers.aspx" />
+    <Content Include="ps3s.aspx" />
     <Content Include="register.aspx" />
     <Content Include="servers.aspx" />
     <Content Include="ultrabooks.aspx" />
@@ -114,6 +131,7 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
+    <Content Include="wiis.aspx" />
     <Content Include="xbox360s.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -123,6 +141,13 @@
     </Compile>
     <Compile Include="cart.aspx.designer.cs">
       <DependentUpon>cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="checkout.aspx.cs">
+      <DependentUpon>checkout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="checkout.aspx.designer.cs">
+      <DependentUpon>checkout.aspx</DependentUpon>
     </Compile>
     <Compile Include="compparts.aspx.cs">
       <DependentUpon>compparts.aspx</DependentUpon>
@@ -162,6 +187,13 @@
       <DependentUpon>desktops.aspx</DependentUpon>
     </Compile>
     <Compile Include="HardDrive.cs" />
+    <Compile Include="harddrives.aspx.cs">
+      <DependentUpon>harddrives.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="harddrives.aspx.designer.cs">
+      <DependentUpon>harddrives.aspx</DependentUpon>
+    </Compile>
     <Compile Include="item.aspx.cs">
       <DependentUpon>item.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -186,10 +218,54 @@
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="MCategory.cs" />
+    <Compile Include="memory.aspx.cs">
+      <DependentUpon>memory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="memory.aspx.designer.cs">
+      <DependentUpon>memory.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Monitor.cs" />
+    <Compile Include="monitors.aspx.cs">
+      <DependentUpon>monitors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="monitors.aspx.designer.cs">
+      <DependentUpon>monitors.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Network.cs" />
+    <Compile Include="networking.aspx.cs">
+      <DependentUpon>networking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="networking.aspx.designer.cs">
+      <DependentUpon>networking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PC.cs" />
+    <Compile Include="pcs.aspx.cs">
+      <DependentUpon>pcs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pcs.aspx.designer.cs">
+      <DependentUpon>pcs.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Printer.cs" />
+    <Compile Include="printers.aspx.cs">
+      <DependentUpon>printers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="printers.aspx.designer.cs">
+      <DependentUpon>printers.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PS3.cs" />
+    <Compile Include="ps3s.aspx.cs">
+      <DependentUpon>ps3s.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ps3s.aspx.designer.cs">
+      <DependentUpon>ps3s.aspx</DependentUpon>
+    </Compile>
     <Compile Include="RAM.cs" />
     <Compile Include="register.aspx.cs">
       <DependentUpon>register.aspx</DependentUpon>
@@ -236,6 +312,14 @@
     </Compile>
     <Compile Include="videogames.aspx.designer.cs">
       <DependentUpon>videogames.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Wii.cs" />
+    <Compile Include="wiis.aspx.cs">
+      <DependentUpon>wiis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wiis.aspx.designer.cs">
+      <DependentUpon>wiis.aspx</DependentUpon>
     </Compile>
     <Compile Include="xbox.cs" />
     <Compile Include="xbox360s.aspx.cs">

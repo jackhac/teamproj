@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="xbox360s.aspx.cs" Inherits="teamproj2.xbox360s" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="monitors.aspx.cs" Inherits="teamproj2.monitors" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -17,21 +17,45 @@
 				<li><a href="#">$1500 to $2000</a></li>
 				<li class="divider"></li>
 				<li class="nav-header">Manufacturers</li>
-				<li><a href="#">Microsoft</a></li>
-				<li><a href="#">Microsoft XBOX</a></li>
-				<li><a href="#">Dreamgear</a></li>
-				<li><a href="#">NOX</a></li>
-				<li><a href="#">Mad Catz</a></li>
-				
+				<li><a href="#">EVGA</a></li>
+				<li><a href="#">XFX</a></li>
+				<li><a href="#">PNY</a></li>
+				<li><a href="#">VisionTek</a></li>
+				<li><a href="#">Asus</a></li>
+				<li class="divider"></li>
+				<li class="nav-header">Interface Type</li>
+				<li><a href="#">PCI Express 2.0</a></li>
+				<li><a href="#">PCI Express 3.0</a></li>
+				<li><a href="#">PCI Express 2.1</a></li>
+				<li><a href="#">PCI Express</a></li>
+				<li class="divider"></li>
+				<li class="nav-header">Processor Brand</li>
+				<li><a href="#">Intel</a></li>
+				<li><a href="#">AMD</a></li>
+				<li><a href="#">NVIDIA</a></li>
+				<li class="divider"></li>
+				<li class="nav-header">Chipset</li>
+				<li><a href="#">NVIDIA GeForce</a></li>
+				<li><a href="#">AMD Radeon</a></li>
+				<li><a href="#">NVIDIA Quadro</a></li>
+				<li><a href="#">ATI Radeon</a></li>
+				<li class="divider"></li>
+				<li class="nav-header">Memory Type</li>
+				<li><a href="#">GDDR5</a></li>
+				<li><a href="#">DDR3</a></li>
+				<li><a href="#">GDDR3</a></li>
+				<li><a href="#">DDR2</a></li>
+				<li><a href="#">DDR5</a></li>
+				<li class="divider"></li>
 			</ul>
 		</div>
 		<div class="span10">
 			<ul class="breadcrumb">
-				<li><a href="index.aspx">Home</a> <span class="divider">/</span></li>
-				<li><a href="videogames.aspx">Video Games</a> <span class="divider">/</span></li>
-				<li class="active"><a href="xbox360.aspx">XBOX 360</a></li>
+				<li><a href="default.aspx">Home</a> <span class="divider">/</span></li>
+				<li><a href="compparts.aspx">Computer Parts</a><span class="divider">/ </li>
+				<li class="active"><a href="monitors.aspx">Monitors</a></li>
 			</ul>
-			<h3>XBOX 360</h3>
+			<h3>Monitors</h3>
   		<div class="well">
   		<div class="row">
 		<ul class="thumbnails">

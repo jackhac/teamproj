@@ -30,7 +30,7 @@ Welcome <%=Session["username"] %>
              
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder> 
              
-            <div class="row-fluid"><div class="span12" id="footer">&copy; 2012 TEAM Project</div></div> 
+            <div class="row-fluid"><div class="span12" id="footer"><center>&copy; 2012 TEAM Project</center></div></div> 
         </div> 
     </div>
     

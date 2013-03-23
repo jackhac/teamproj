@@ -30,9 +30,9 @@ namespace teamproj2
 
                 int numCartItems =cartItems.Count;
                 decimal alltotal = 0;
-
-                Response.Write("<table>");
-                Response.Write("<tr><th>Name</th><th>Quantity</th><th>Price</th><th>Total</th></tr>");
+                decimal price=0;
+                Response.Write("<table class='table'>");
+                Response.Write("<tr><th>Picture</th><th>Name</th><th>Quantity</th><th>Price</th><th></th></tr>");
 
                 for (int i = 0; i < numCartItems; i++)
                 {
@@ -41,13 +41,18 @@ namespace teamproj2
                     int quant = item.Quant;
                     string name = item.Name;
                     string desc = item.Desc;
-                    decimal price = item.Price;
+                    price = item.Price;
                     decimal total = item.Total;
+                    string picture = item.Picture;
                     alltotal += total;
-                    Response.Write("<tr><td><a href='item.aspx?pid=" + id2 + "'>" + name + "</a></td><td align='center'>" + quant + "</td><td>" + String.Format("{0:C}", price) + "</td><td>" + String.Format("{0:C}", total) + "</td></tr>");
+                    Response.Write("<tr><td><img src='" + picture + "'width='100px'/></td><td><a href='item.aspx?pid=" + id2 + "'>" + name + "</a></td><td align='center'>" + quant + "</td><td>" + String.Format("{0:C}", price) + "</td></tr>");
                 }
-                Response.Write("<tr><td></td><td></td><td></td><td>" + String.Format("{0:C}", alltotal) + "</td></tr>");
+                Response.Write("<tr><td></td><td></td><td></td><td></td></tr>");
                 Response.Write("</table>");
+                Response.Write("<b>Total:</b> " + String.Format("{0:C}", price));
+                Response.Write("<br />");
+                Response.Write("<br />");
+                Response.Write("<a href='checkout.aspx' class='btn btn-primary'>CHECKOUT</a>");
             }
         }
     }

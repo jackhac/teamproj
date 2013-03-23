@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="xbox360s.aspx.cs" Inherits="teamproj2.xbox360s" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ps3s.aspx.cs" Inherits="teamproj2.ps3s" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -29,9 +29,9 @@
 			<ul class="breadcrumb">
 				<li><a href="index.aspx">Home</a> <span class="divider">/</span></li>
 				<li><a href="videogames.aspx">Video Games</a> <span class="divider">/</span></li>
-				<li class="active"><a href="xbox360.aspx">XBOX 360</a></li>
+				<li class="active"><a href="ps3s.aspx">PS3</a></li>
 			</ul>
-			<h3>XBOX 360</h3>
+			<h3>PS3</h3>
   		<div class="well">
   		<div class="row">
 		<ul class="thumbnails">

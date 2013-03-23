@@ -7,9 +7,9 @@ using System.Data.SqlClient;
 
 namespace teamproj2
 {
-    public class Desktop
+    public class PS3
     {
-         public int Id { get; set; }
+        public int Id { get; set; }
         public decimal Price { get; set; }
         public string Name { get; set; }
         public string Desc { get; set; }
@@ -21,13 +21,13 @@ namespace teamproj2
         public int SCategory { get; set; }
         public string SCategory2 { get; set; }
 
-        public Desktop(int id2)
+        public PS3(int id2)
         {
             string conn = "data source=.\\SQLEXPRESS;Integrated Security=True;User Instance=True;AttachDBFilename=|DataDirectory|Database1.mdf;Integrated Security=True";
             SqlConnection con = new SqlConnection(conn);
             con.Open();
 
-            SqlCommand cmd = new SqlCommand("select * from Items where [Main Category]=1 and [Sub Category]=4" , con);
+            SqlCommand cmd = new SqlCommand("select * from Items where [Main Category]=3 and [Sub Category]=2" , con);
 
             SqlDataReader rdr = cmd.ExecuteReader();
             for (int i = 0; i < id2; i++)

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="xbox360s.aspx.cs" Inherits="teamproj2.xbox360s" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="pcs.aspx.cs" Inherits="teamproj2.pcs" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -27,11 +27,11 @@
 		</div>
 		<div class="span10">
 			<ul class="breadcrumb">
-				<li><a href="index.aspx">Home</a> <span class="divider">/</span></li>
-				<li><a href="videogames.aspx">Video Games</a> <span class="divider">/</span></li>
-				<li class="active"><a href="xbox360.aspx">XBOX 360</a></li>
+				<li><a href="index.php">Home</a> <span class="divider">/</span></li>
+				<li><a href="videogames.php">Video Games</a> <span class="divider">/</span></li>
+				<li class="active"><a href="pc.php">PC</a></li>
 			</ul>
-			<h3>XBOX 360</h3>
+			<h3>PC</h3>
   		<div class="well">
   		<div class="row">
 		<ul class="thumbnails">
@@ -44,39 +44,14 @@
 			</li>
 			<li class="span3">
 				<center>
-				<a href="item.aspx"><img src="http://placehold.it/150x150"/></center><br>
+				<a href="item.php"><img src="http://placehold.it/150x150"/></center><br>
 				Item Name</a>
 				<h3 class="text-error">$99.99</h3>
 			
 			</li>
 			<li class="span3">
 				<center>
-				<a href="item.aspx"><img src="http://placehold.it/150x150"/></center><br>
-				Item Name</a>
-				<h3 class="text-error">$99.99</h3>
-			
-			</li>
-		</ul>
-	</div>
-	<div class="row">
-		<ul class="thumbnails">
-			<li class="span3">
-				<center>
-				<a href="item.aspx"><img src="http://placehold.it/150x150"/></center><br>
-				Item Name</a>
-				<h3 class="text-error">$99.99</h3>
-			
-			</li>
-			<li class="span3">
-				<center>
-				<a href="item.aspx"><img src="http://placehold.it/150x150"/></center><br>
-				Item Name</a>
-				<h3 class="text-error">$99.99</h3>
-			
-			</li>
-			<li class="span3">
-				<center>
-				<a href="item.aspx"><img src="http://placehold.it/150x150"/></center><br>
+				<a href="item.php"><img src="http://placehold.it/150x150"/></center><br>
 				Item Name</a>
 				<h3 class="text-error">$99.99</h3>
 			
@@ -87,21 +62,46 @@
 		<ul class="thumbnails">
 			<li class="span3">
 				<center>
-				<a href="item.aspx"><img src="http://placehold.it/150x150"/></center><br>
+				<a href="item.php"><img src="http://placehold.it/150x150"/></center><br>
 				Item Name</a>
 				<h3 class="text-error">$99.99</h3>
 			
 			</li>
 			<li class="span3">
 				<center>
-				<a href="item.aspx"><img src="http://placehold.it/150x150"/></center><br>
+				<a href="item.php"><img src="http://placehold.it/150x150"/></center><br>
 				Item Name</a>
 				<h3 class="text-error">$99.99</h3>
 			
 			</li>
 			<li class="span3">
 				<center>
-				<a href="item.aspx"><img src="http://placehold.it/150x150"/></center><br>
+				<a href="item.php"><img src="http://placehold.it/150x150"/></center><br>
+				Item Name</a>
+				<h3 class="text-error">$99.99</h3>
+			
+			</li>
+		</ul>
+	</div>
+	<div class="row">
+		<ul class="thumbnails">
+			<li class="span3">
+				<center>
+				<a href="item.php"><img src="http://placehold.it/150x150"/></center><br>
+				Item Name</a>
+				<h3 class="text-error">$99.99</h3>
+			
+			</li>
+			<li class="span3">
+				<center>
+				<a href="item.php"><img src="http://placehold.it/150x150"/></center><br>
+				Item Name</a>
+				<h3 class="text-error">$99.99</h3>
+			
+			</li>
+			<li class="span3">
+				<center>
+				<a href="item.php"><img src="http://placehold.it/150x150"/></center><br>
 				Item Name</a>
 				<h3 class="text-error">$99.99</h3>
 			</li>
