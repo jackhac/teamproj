@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="laptops.aspx.cs" Inherits="teamproj2.laptops" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="servers.aspx.cs" Inherits="teamproj2.servers" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -40,10 +40,10 @@
 		<div class="span10">
 			<ul class="breadcrumb">
 				<li><a href="default.aspx">Home</a> <span class="divider">/</span></li>
-				<li><a href="computers.aspx">Computers</a><span class="divider">/ </li>
-				<li class="active"><a href="laptops.aspx">Laptops</a></li>
+				<li><a href="computers.aspx">Computers</a><span class="divider">/</span> </li>
+				<li class="active"><a href="servers.aspx">Servers</a></li>
 			</ul>
-			<h3>Laptops</h3>
+			<h3>Servers</h3>
   		<div class="well">
   		<div class="row">
 		<ul class="thumbnails">

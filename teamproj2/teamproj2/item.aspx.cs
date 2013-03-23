@@ -77,5 +77,10 @@ namespace teamproj2
             Item item3 = new Item(pid2);
             Response.Write(item3.SCategory2);
         }
+        protected void displayId()
+        {
+            Item item3 = new Item(pid2);
+            Response.Write(item3.Id);
+        }
     }
 }

@@ -25,7 +25,7 @@
 				
 			</li>
 			<li class="span2">
-				<center><a href="xbox360.aspx"><img src="img/grey/cat-xbox360_new.jpg"/><br>
+				<center><a href="xbox360s.aspx"><img src="img/grey/cat-xbox360_new.jpg"/><br>
 				XBOX 360</a></center>
 			</li>
 			<li class="span2">

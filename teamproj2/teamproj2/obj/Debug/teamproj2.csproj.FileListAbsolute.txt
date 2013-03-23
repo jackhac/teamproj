@@ -1,5 +1,10 @@
-c:\users\andrew buchanan\documents\visual studio 2010\Projects\teamproj2\teamproj2\bin\teamproj2.dll
-c:\users\andrew buchanan\documents\visual studio 2010\Projects\teamproj2\teamproj2\bin\teamproj2.pdb
-c:\users\andrew buchanan\documents\visual studio 2010\Projects\teamproj2\teamproj2\obj\Debug\ResolveAssemblyReference.cache
-c:\users\andrew buchanan\documents\visual studio 2010\Projects\teamproj2\teamproj2\obj\Debug\teamproj2.dll
-c:\users\andrew buchanan\documents\visual studio 2010\Projects\teamproj2\teamproj2\obj\Debug\teamproj2.pdb
+C:\Users\Andrew Buchanan\documents\visual studio 2010\Projects\teamproj2\teamproj2\bin\teamproj2.dll
+C:\Users\Andrew Buchanan\documents\visual studio 2010\Projects\teamproj2\teamproj2\bin\teamproj2.pdb
+C:\Users\Andrew Buchanan\documents\visual studio 2010\Projects\teamproj2\teamproj2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andrew Buchanan\documents\visual studio 2010\Projects\teamproj2\teamproj2\obj\Debug\teamproj2.dll
+C:\Users\Andrew Buchanan\documents\visual studio 2010\Projects\teamproj2\teamproj2\obj\Debug\teamproj2.pdb
+C:\Users\jackhaclaptop\Documents\Visual Studio 2010\Projects\teamproj2\teamproj2\bin\teamproj2.dll
+C:\Users\jackhaclaptop\Documents\Visual Studio 2010\Projects\teamproj2\teamproj2\bin\teamproj2.pdb
+C:\Users\jackhaclaptop\Documents\Visual Studio 2010\Projects\teamproj2\teamproj2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\jackhaclaptop\Documents\Visual Studio 2010\Projects\teamproj2\teamproj2\obj\Debug\teamproj2.dll
+C:\Users\jackhaclaptop\Documents\Visual Studio 2010\Projects\teamproj2\teamproj2\obj\Debug\teamproj2.pdb

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="laptops.aspx.cs" Inherits="teamproj2.laptops" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="xbox360s.aspx.cs" Inherits="teamproj2.xbox360s" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -17,37 +17,24 @@
 				<li><a href="#">$1500 to $2000</a></li>
 				<li class="divider"></li>
 				<li class="nav-header">Manufacturers</li>
-				<li><a href="#">Acer</a></li>
-				<li><a href="#">Samsung</a></li>
-				<li><a href="#">Toshiba</a></li>
-				<li><a href="#">Dell</a></li>
-				<li><a href="#">Apple</a></li>
-				<li><a href="#">HP</a></li>
-				<li class="divider"></li>
-				<li class="nav-header">Processor Type</li>
-				<li><a href="#">Dual-Core</a></li>
-				<li><a href="#">Quad-Core</a></li>
-				<li><a href="#">Single-Core</a></li>
-				<li class="divider"></li>
-				<li class="nav-header">Processor Brand</li>
-				<li><a href="#">Intel</a></li>
-				<li><a href="#">AMD</a></li>
-				<li><a href="#">NVIDIA</a></li>
-				<li class="divider"></li>
+				<li><a href="#">Microsoft</a></li>
+				<li><a href="#">Microsoft XBOX</a></li>
+				<li><a href="#">Dreamgear</a></li>
+				<li><a href="#">NOX</a></li>
+				<li><a href="#">Mad Catz</a></li>
 				
 			</ul>
 		</div>
 		<div class="span10">
 			<ul class="breadcrumb">
-				<li><a href="default.aspx">Home</a> <span class="divider">/</span></li>
-				<li><a href="computers.aspx">Computers</a><span class="divider">/ </li>
-				<li class="active"><a href="laptops.aspx">Laptops</a></li>
+				<li><a href="index.php">Home</a> <span class="divider">/</span></li>
+				<li><a href="videogames.php">Video Games</a> <span class="divider">/</span></li>
+				<li class="active"><a href="xbox360.php">XBOX 360</a></li>
 			</ul>
-			<h3>Laptops</h3>
+			<h3>XBOX 360</h3>
   		<div class="well">
   		<div class="row">
 		<ul class="thumbnails">
-			
 			<li class="span3">
 				<center>
 				<a href="item.aspx?pid=<%displayId(1); %>"><img src="<%displayPicture(1); %>"/></center><br>
@@ -57,39 +44,14 @@
 			</li>
 			<li class="span3">
 				<center>
-				<a href="item.aspx"><img src="http://placehold.it/150x150"/></center><br>
+				<a href="item.php"><img src="http://placehold.it/150x150"/></center><br>
 				Item Name</a>
 				<h3 class="text-error">$99.99</h3>
 			
 			</li>
 			<li class="span3">
 				<center>
-				<a href="item.aspx"><img src="http://placehold.it/150x150"/></center><br>
-				Item Name</a>
-				<h3 class="text-error">$99.99</h3>
-			
-			</li>
-		</ul>
-	</div>
-	<div class="row">
-		<ul class="thumbnails">
-			<li class="span3">
-				<center>
-				<a href="item.aspx"><img src="http://placehold.it/150x150"/></center><br>
-				Item Name</a>
-				<h3 class="text-error">$99.99</h3>
-			
-			</li>
-			<li class="span3">
-				<center>
-				<a href="item.aspx"><img src="http://placehold.it/150x150"/></center><br>
-				Item Name</a>
-				<h3 class="text-error">$99.99</h3>
-			
-			</li>
-			<li class="span3">
-				<center>
-				<a href="item.aspx"><img src="http://placehold.it/150x150"/></center><br>
+				<a href="item.php"><img src="http://placehold.it/150x150"/></center><br>
 				Item Name</a>
 				<h3 class="text-error">$99.99</h3>
 			
@@ -100,21 +62,46 @@
 		<ul class="thumbnails">
 			<li class="span3">
 				<center>
-				<a href="item.aspx"><img src="http://placehold.it/150x150"/></center><br>
+				<a href="item.php"><img src="http://placehold.it/150x150"/></center><br>
 				Item Name</a>
 				<h3 class="text-error">$99.99</h3>
 			
 			</li>
 			<li class="span3">
 				<center>
-				<a href="item.aspx"><img src="http://placehold.it/150x150"/></center><br>
+				<a href="item.php"><img src="http://placehold.it/150x150"/></center><br>
 				Item Name</a>
 				<h3 class="text-error">$99.99</h3>
 			
 			</li>
 			<li class="span3">
 				<center>
-				<a href="item.aspx"><img src="http://placehold.it/150x150"/></center><br>
+				<a href="item.php"><img src="http://placehold.it/150x150"/></center><br>
+				Item Name</a>
+				<h3 class="text-error">$99.99</h3>
+			
+			</li>
+		</ul>
+	</div>
+	<div class="row">
+		<ul class="thumbnails">
+			<li class="span3">
+				<center>
+				<a href="item.php"><img src="http://placehold.it/150x150"/></center><br>
+				Item Name</a>
+				<h3 class="text-error">$99.99</h3>
+			
+			</li>
+			<li class="span3">
+				<center>
+				<a href="item.php"><img src="http://placehold.it/150x150"/></center><br>
+				Item Name</a>
+				<h3 class="text-error">$99.99</h3>
+			
+			</li>
+			<li class="span3">
+				<center>
+				<a href="item.php"><img src="http://placehold.it/150x150"/></center><br>
 				Item Name</a>
 				<h3 class="text-error">$99.99</h3>
 			</li>

@@ -11,7 +11,7 @@ namespace teamproj2
 {
 
 
-    public partial class xbox360
+    public partial class CPUs
     {
     }
 }

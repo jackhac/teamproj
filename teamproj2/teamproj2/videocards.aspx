@@ -61,9 +61,9 @@
 		<ul class="thumbnails">
 			<li class="span3">
 				<center>
-				<a href="item.aspx"><img src="http://placehold.it/150x150"/></center><br>
-				Item Name</a>
-				<h3 class="text-error">$99.99</h3>
+				<a href="item.aspx?pid=<%displayId(1); %>"><img src="<%displayPicture(1); %>"/></center><br>
+				<%displayName(1); %></a>
+				<h3 class="text-error"><%displayPrice(1); %></h3>
 			
 			</li>
 			<li class="span3">

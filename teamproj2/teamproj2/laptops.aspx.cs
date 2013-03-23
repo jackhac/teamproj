@@ -13,5 +13,30 @@ namespace teamproj2
         {
 
         }
+        protected void displayId(int pid3)
+        {
+            Laptop l3 = new Laptop(pid3);
+            Response.Write(l3.Id);
+        }
+        protected void displayPicture(int pid3)
+        {
+            Laptop l3 = new Laptop(pid3);
+            Response.Write(l3.Picture);
+        }
+        protected void displayDesc(int pid3)
+        {
+            Laptop l3 = new Laptop(pid3);
+            Response.Write(l3.Desc);
+        }
+        protected void displayName(int pid3)
+        {
+            Laptop l3 = new Laptop(pid3);
+            Response.Write(l3.Name);
+        }
+        protected void displayPrice(int pid3)
+        {
+            Laptop l3 = new Laptop(pid3);
+            Response.Write(String.Format("{0:C}", l3.Price));
+        }
     }
 }

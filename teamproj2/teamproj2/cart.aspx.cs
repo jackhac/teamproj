@@ -16,9 +16,6 @@ namespace teamproj2
         {
             string conn = "data source=.\\SQLEXPRESS;Integrated Security=True;User Instance=True;AttachDBFilename=|DataDirectory|Database1.mdf;Integrated Security=True";
             SqlConnection con = new SqlConnection(conn);
-
-            
-         
         }
 
         protected void LoadCart()
@@ -48,10 +45,8 @@ namespace teamproj2
                     decimal total = item.Total;
                     alltotal += total;
                     Response.Write("<tr><td><a href='item.aspx?pid=" + id2 + "'>" + name + "</a></td><td align='center'>" + quant + "</td><td>" + String.Format("{0:C}", price) + "</td><td>" + String.Format("{0:C}", total) + "</td></tr>");
-                    
                 }
                 Response.Write("<tr><td></td><td></td><td></td><td>" + String.Format("{0:C}", alltotal) + "</td></tr>");
-                    
                 Response.Write("</table>");
             }
         }
