@@ -16,13 +16,15 @@ namespace teamproj2
         //int pid2;
         protected void Page_Load(object sender, EventArgs e)
         {
-
             // string value = Request.QueryString["pid"];
             //string pid = Request.QueryString["pid"];
             //pid2 = Convert.ToInt32(pid);
             //string addcart = Request.QueryString["addcart"];
-
-           
+        }
+        protected void displayId(int pid2)
+        {
+            Item item3 = new Item(pid2);
+            Response.Write(item3.Id);
         }
         protected void displayName(int pid2)
         {

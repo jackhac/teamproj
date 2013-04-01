@@ -34,12 +34,11 @@ namespace teamproj2
                 {
                     cartItems = (ArrayList)Session["cartItem"];
                 }
-                item1 = new Item(pid2);
-                
-                cartItems.Add(item1);
-                
 
+                item1 = new Item(pid2);
+                cartItems.Add(item1);
                 Session["cartItem"] = cartItems;
+                Response.Redirect("cart.aspx");
             }
         }
         protected void add_cart(object sender, EventArgs e)

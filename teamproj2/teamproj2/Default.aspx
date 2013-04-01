@@ -25,40 +25,28 @@
     <div class="row">
 		<ul class="thumbnails">
 			<li class="span2">
-			
 				<center><a href="laptops.aspx"><img src="img/home_laptops.jpg"/>
 				Laptops</a></center>
-			
 			</li>
 			<li class="span2">
-			
 				<center><a href="desktops.aspx"><img src="img/home_desktops2.jpg"/>
 				Desktops</a></center>
-			
 			</li>
 			<li class="span2">
-			
 				<center><a href="monitors.aspx"><img src="img/home_monitors.jpg"/>
 				Monitors</a></center>
-			
 			</li>
 			<li class="span2">
-			
 				<center><a href="networking.aspx"><img src="img/home_networking.jpg"/>
 				Networking</a></center>
-			
 			</li>
 			<li class="span2">
-			
 				<center><a href="videogames.aspx"><img src="img/xbox.jpg"/>
 				Gaming</a></center>
-			
 			</li>
 			<li class="span2">
-			
 				<center><a href="printers.aspx"><img src="img/home_printers.jpg"/>
 				Printers</a></center>
-			
 			</li>
 		</ul>
 	</div>
@@ -67,24 +55,22 @@
 		<ul class="thumbnails">
 			<li class="span3">
 				<center>
-				<a href="item.aspx?pid=2"><img src="<%displayPicture(2);%>"/></center><br>
-				<%displayName(2); %></a>
-				<h3 class="text-error"><%displayPrice(2); %></h3>
-			
-			</li>
-			<li class="span3">
-			<center>
-				<a href="item.aspx?pid=1"><img src="<%displayPicture(1);%>"/></center><br>
+				<a href="item.aspx?pid=<%displayId(1);%>"><img src="<%displayPicture(1);%>"/></center><br>
 				<%displayName(1); %></a>
-				<h3 class="text-error"><%displayPrice(1); %></h3>			</li>
+				<h3 class="text-error"><%displayPrice(1); %></h3>           </li>
 			<li class="span3">
 			<center>
-				<a href="item.aspx?pid=2"><img src="<%displayPicture(2);%>"/></center><br>
+				<a href="item.aspx?pid=<%displayId(2);%>"><img src="<%displayPicture(2);%>"/></center><br>
 				<%displayName(2); %></a>
 				<h3 class="text-error"><%displayPrice(2); %></h3>			</li>
 			<li class="span3">
 			<center>
-				<a href="item.aspx?pid=1"><img src="<%displayPicture(1);%>"/></center><br>
+				<a href="item.aspx?pid=<%displayId(2);%>"><img src="<%displayPicture(2);%>"/></center><br>
+				<%displayName(2); %></a>
+				<h3 class="text-error"><%displayPrice(2); %></h3>			</li>
+			<li class="span3">
+			<center>
+				<a href="item.aspx?pid=<%displayId(1);%>"><img src="<%displayPicture(1);%>"/></center><br>
 				<%displayName(1); %></a>
 				<h3 class="text-error"><%displayPrice(1); %></h3>
 			</li>
@@ -95,25 +81,25 @@
 		<ul class="thumbnails">
 			<li class="span3">
 			<center>
-				<a href="item.aspx?pid=1"><img src="<%displayPicture(1);%>"/></center><br>
+				<a href="item.aspx?pid=<%displayId(1);%>"><img src="<%displayPicture(1);%>"/></center><br>
 				<%displayName(1); %></a>
 				<h3 class="text-error"><%displayPrice(1); %></h3>
 			</li>
 			<li class="span3">
 			<center>
-				<a href="item.aspx?pid=2"><img src="<%displayPicture(2);%>"/></center><br>
+				<a href="item.aspx?pid=<%displayId(2);%>"><img src="<%displayPicture(2);%>"/></center><br>
 				<%displayName(2); %></a>
 				<h3 class="text-error"><%displayPrice(2); %></h3>
 			</li>
 			<li class="span3">
 			<center>
-				<a href="item.aspx?pid=1"><img src="<%displayPicture(1);%>"/></center><br>
+				<a href="item.aspx?pid=<%displayId(1);%>"><img src="<%displayPicture(1);%>"/></center><br>
 				<%displayName(1); %></a>
 				<h3 class="text-error"><%displayPrice(1); %></h3>
 			</li>
 			<li class="span3">
 			<center>
-				<a href="item.aspx?pid=2"><img src="<%displayPicture(2);%>"/></center><br>
+				<a href="item.aspx?pid=<%displayId(2);%>"><img src="<%displayPicture(2);%>"/></center><br>
 				<%displayName(2); %></a>
 				<h3 class="text-error"><%displayPrice(2); %></h3>
 			</li>

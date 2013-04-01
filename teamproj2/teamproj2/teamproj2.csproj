@@ -149,6 +149,7 @@
     <Compile Include="checkout.aspx.designer.cs">
       <DependentUpon>checkout.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Compatibility.cs" />
     <Compile Include="compparts.aspx.cs">
       <DependentUpon>compparts.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
