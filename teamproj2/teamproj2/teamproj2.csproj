@@ -275,6 +275,7 @@
     <Compile Include="register.aspx.designer.cs">
       <DependentUpon>register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Register.cs" />
     <Compile Include="SCategory.cs" />
     <Compile Include="Server.cs" />
     <Compile Include="servers.aspx.cs">

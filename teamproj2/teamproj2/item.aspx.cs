@@ -24,7 +24,9 @@ namespace teamproj2
             
             if (pid==null)
             {
-                Response.Redirect("item.aspx?pid=1");
+                //System.Threading.Thread.SpinWait(5);
+               Response.Redirect("default.aspx");
+                //Response.AppendHeader("REFRESH", "5;URL=default.aspx");
             }
             if (addcart == "1")
             {

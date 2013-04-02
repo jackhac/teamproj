@@ -30,6 +30,8 @@ namespace teamproj2
 
             this.Id = (int)rdr[0];
             this.Name = (string)rdr[1];
+
+            con.Close();
         }
 
     }

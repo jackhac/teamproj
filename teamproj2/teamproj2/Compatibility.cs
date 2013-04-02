@@ -13,6 +13,7 @@ namespace teamproj2
         public int Item1Id { get; set; }
         public int Item2Id { get; set; }
         public bool isThere { get; set; }
+        public bool isMain { get; set; }
 
         public Compatibility(int item1, int item2)
         {
@@ -21,26 +22,28 @@ namespace teamproj2
 
             con.Open();
 
-            SqlCommand cmd = new SqlCommand("select * from Compatibility where Item1ID="+item1+" and Item2ID"+item2, con);
+            SqlCommand cmd = new SqlCommand("select * from Compatibility", con);
             SqlDataReader rdr = cmd.ExecuteReader();
-           
-            rdr.Read();
-            
-            this.Id = (int)rdr[0];
-            this.Item1Id = (int)rdr[1];
-            this.Item2Id = (int)rdr[2];
+            this.isThere = false;
+            while(rdr.Read())
+            {
+                this.Id = (int)rdr[0];
+                this.Item1Id = (int)rdr[1];
+                this.Item2Id = (int)rdr[2];
 
-            if ((item1 == this.Item1Id) && (item2 == this.Item2Id))
-            {
-                this.isThere = true;
-            }
-            else
-            {
-                this.isThere = false;
+                if (((item1 == this.Item1Id) && (item2 == this.Item2Id)) || ((item2 == this.Item1Id) && (item1 == this.Item2Id)))
+                {
+                    this.isThere = true;
+                }
             }
 
+            if (item1 == item2)
+            {
+                this.isMain = true;
+            }
             con.Close();
         }
+        
 
         public string htmlButton()
         {
@@ -48,10 +51,15 @@ namespace teamproj2
             {
                 return "<a class='btn btn-success'>YES</a>";
             }
+            else if (this.isMain == true)
+            {
+                return "<a class='btn btn-info'>MAIN</a>";
+            }
             else
             {
                 return "<a class='btn btn-danger'>NO</a>";
             }
+
         }
     }
 }
