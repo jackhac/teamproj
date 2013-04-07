@@ -66,21 +66,89 @@
     <Content Include="Default.aspx" />
     <Content Include="desktops.aspx" />
     <Content Include="harddrives.aspx" />
+    <Content Include="img\10125851.jpg" />
+    <Content Include="img\10143546.jpg" />
+    <Content Include="img\10147879.jpg" />
+    <Content Include="img\10153777.jpg" />
+    <Content Include="img\10157048.jpg" />
+    <Content Include="img\10157053.jpg" />
+    <Content Include="img\10169880.jpg" />
+    <Content Include="img\10171975.jpg" />
+    <Content Include="img\10172092.jpg" />
+    <Content Include="img\10172273.jpg" />
+    <Content Include="img\10172282.jpg" />
+    <Content Include="img\10172486.jpg" />
+    <Content Include="img\10172493.jpg" />
+    <Content Include="img\10173156.jpg" />
+    <Content Include="img\10178576.jpg" />
+    <Content Include="img\10178578.jpg" />
+    <Content Include="img\10201471.jpg" />
+    <Content Include="img\10201991.jpg" />
+    <Content Include="img\10203927.jpg" />
+    <Content Include="img\10204488.jpg" />
+    <Content Include="img\10207439.jpg" />
+    <Content Include="img\10207454.jpg" />
+    <Content Include="img\10207525.jpg" />
+    <Content Include="img\10207641.jpg" />
+    <Content Include="img\10207644.jpg" />
+    <Content Include="img\10207654.jpg" />
+    <Content Include="img\10226751.jpg" />
+    <Content Include="img\10232970.jpg" />
+    <Content Include="img\10233077.jpg" />
+    <Content Include="img\10234478.jpg" />
     <Content Include="img\10234992.jpg" />
+    <Content Include="img\10236912.jpg" />
     <Content Include="img\10238849.jpg" />
+    <Content Include="img\10241346.jpg" />
     <Content Include="img\A204.jpg" />
+    <Content Include="img\A208-5100_chiclet01_nap_833176.jpg" />
+    <Content Include="img\A208-9906_chiclet01_ibp_mn_7371428.jpg" />
+    <Content Include="img\A271-5456_chiclet01_ea_mn_149617.jpg" />
+    <Content Include="img\A50-11101-CA_chiclet01_gfv_mn_7358157.jpg" />
+    <Content Include="img\A50-11113-CA_chiclet01_ac_mn_7358169.jpg" />
+    <Content Include="img\A50-11114-CA_chiclet01_ac_mn_7358170.jpg" />
+    <Content Include="img\A50-11121-CA_vcall01_js_gl_7358177.jpg" />
+    <Content Include="img\A50-12205-CA_chicle01_ibp_mn_7787071.jpg" />
+    <Content Include="img\A50-22021-CA_chiclet01_ac_mn_7362970.jpg" />
+    <Content Include="img\A50-22022-CA_chiclet01_ac_mn_7362971.jpg" />
+    <Content Include="img\A50-22025-CA_chiclet01_ac_mn_7362974.jpg" />
+    <Content Include="img\A50-22026-CA_chiclet01_gfv_mn_7362975.jpg" />
+    <Content Include="img\A50-22027-CA_chiclet01_gfv_mn_7362976.jpg" />
     <Content Include="img\A50.jpg" />
+    <Content Include="img\A50a.jpg" />
+    <Content Include="img\A79-5801_chiclet01_ea_mn_4501108.jpg" />
+    <Content Include="img\A79-8151_chiclet01x_er.jpg" />
+    <Content Include="img\A79-8320_chiclet01_ibp_mn_4904560.jpg" />
+    <Content Include="img\A79-8350_chiclet01_ibp_mn_4904561.jpg" />
+    <Content Include="img\A79-8351_chiclet01_ibp_mn_4904562.jpg" />
+    <Content Include="img\A79-8352_chiclet01_ibp_mn_4904563.jpg" />
+    <Content Include="img\C122-08630-chicklet00-oo.jpg" />
+    <Content Include="img\C122-10020-chicklet00-oo.jpg" />
+    <Content Include="img\C122-12020_chiclet01_aa_1875211.jpg" />
+    <Content Include="img\C122-12100_chiclet01_aa_1969710.jpg" />
+    <Content Include="img\C122-12556_chiclet01x_gfv_mn_7587903.jpg" />
+    <Content Include="img\C122-12600_chiclet01_aa_2543175.jpg" />
+    <Content Include="img\C122-4696_chiclet01_aa_3804401.jpg" />
+    <Content Include="img\C122-4950-chicklet00-oo.jpg" />
     <Content Include="img\C122.jpg" />
+    <Content Include="img\C13-6165_vmain01x_jep_mn_6611013.jpg" />
+    <Content Include="img\C19-6177_chiclet01_aa_1412141.jpg" />
     <Content Include="img\cat-cpus.jpg" />
     <Content Include="img\cat-hard-drives.jpg" />
     <Content Include="img\cat-memory.jpg" />
     <Content Include="img\cat-PCgames.jpg" />
     <Content Include="img\cat-video-cards.jpg" />
+    <Content Include="img\E145-0650_chiclet01xx_gfv_mn_4501123.jpg" />
+    <Content Include="img\E145-0667_chiclet01xxxxx_ibp_mn_4501133.jpg" />
+    <Content Include="img\E145-0671_chiclet01xxx_gfv_mn_2827136.jpg" />
+    <Content Include="img\E145-0686_chiclet01x_gfv_mn_2522511.jpg" />
+    <Content Include="img\E145-0687_chiclet01x_ibp_mn_3184513.jpg" />
     <Content Include="img\E57.jpg" />
     <Content Include="img\E888.jpg" />
     <Content Include="img\featurespot-g_T71-11133CASUB.jpg" />
     <Content Include="img\featurespot-p_B69-0997.jpg" />
     <Content Include="img\featurespot-stpat_I750-4200CA.jpg" />
+    <Content Include="img\G458-0670_chiclet01xxx_gfv_mn_2577833.jpg" />
     <Content Include="img\glyphicons-halflings-white.png" />
     <Content Include="img\glyphicons-halflings.png" />
     <Content Include="img\grey\cat-desktops.jpg" />
@@ -95,17 +163,46 @@
     <Content Include="img\grey\cat-xbox360_new.jpg" />
     <Content Include="img\grey\xbox.jpg" />
     <Content Include="img\H24.jpg" />
+    <Content Include="img\H50-11102-CA_chiclet01_ea_mn_7352760.jpg" />
+    <Content Include="img\H50-11108-CA_chiclet01x_ibp_mn_7352764.jpg" />
+    <Content Include="img\H50-11111-CA_chiclet01_ac_mn_7352767.jpg" />
     <Content Include="img\home_desktops2.jpg" />
     <Content Include="img\home_laptops.jpg" />
     <Content Include="img\home_monitors.jpg" />
     <Content Include="img\home_networking.jpg" />
     <Content Include="img\home_printers.jpg" />
+    <Content Include="img\I69-3570K_chiclet01_aa_2373004.jpg" />
+    <Content Include="img\I69-3770K_chiclet01_aa_2372989.jpg" />
     <Content Include="img\I69.jpg" />
+    <Content Include="img\J001-11009_chiclet01_aa_2043689.jpg" />
+    <Content Include="img\K24-0108_chiclet01_ac_mn_3865544.jpg" />
+    <Content Include="img\K24-8816_chiclet01_nap_708908.jpg" />
+    <Content Include="img\K24-9917_chiclet01x_er.jpg" />
+    <Content Include="img\K24-9917_v01_er.jpg" />
+    <Content Include="img\K24-9918_chiclet01_nap_7162756.jpg" />
     <Content Include="img\K24.jpg" />
     <Content Include="img\M17-9560.jpg" />
+    <Content Include="img\M261-8234_chiclet01_ac_mn_5384379.jpg" />
+    <Content Include="img\M261-8324_chiclet01xx_ibp_mn_7152614.jpg" />
     <Content Include="img\M85.jpg" />
     <Content Include="img\N100.jpg" />
+    <Content Include="img\P450-54500_chiclet01_ac_mn_7373215.jpg" />
+    <Content Include="img\S130-8711_chiclet01_aa_2933294.jpg" />
+    <Content Include="img\S130-90010_chiclet01_gfv_mn_7404120.jpg" />
+    <Content Include="img\S203-11111-CA_chiclet01_ac_mn_7362978.jpg" />
+    <Content Include="img\S203-11112-CA_chiclet01_ibp_mn_7362979.jpg" />
+    <Content Include="img\S203-11115-CA_chiclet01_ea_mn_7362982.jpg" />
+    <Content Include="img\S203-11124-CA_chiclet01_gfv_mn_7839525.jpg" />
+    <Content Include="img\T24-9902_phmain01_plp_mn_7686635.jpg" />
+    <Content Include="img\T25-11103-CA_chiclet01_ac_mn_7358093.jpg" />
+    <Content Include="img\T25-11105-CA_chiclet01_ac_mn_7358095.jpg" />
+    <Content Include="img\T71-11124-CA_chiclet01_ibp_mn_7358044.jpg" />
+    <Content Include="img\T71-22097-CA_chiclet01_ac_mn_7358067.jpg" />
+    <Content Include="img\T71-22123-CA_vmain01_plp_mn_7787108.jpg" />
     <Content Include="img\T71.jpg" />
+    <Content Include="img\TSD-2000WD2_chiclet01x_aa_mn_7288043.jpg" />
+    <Content Include="img\TSD-3000EZRX_chiclet01x_ea_mn_940885.jpg" />
+    <Content Include="img\TSD-500ST-chicklet00-aa.jpg" />
     <Content Include="img\W10.jpg" />
     <Content Include="img\xbox.jpg" />
     <Content Include="item.aspx" />
@@ -114,10 +211,7 @@
     <Content Include="laptops.aspx" />
     <Content Include="login.aspx" />
     <Content Include="memory.aspx" />
-    <Content Include="monitors.aspx" />
-    <Content Include="networking.aspx" />
     <Content Include="pcs.aspx" />
-    <Content Include="printers.aspx" />
     <Content Include="ps3s.aspx" />
     <Content Include="register.aspx" />
     <Content Include="servers.aspx" />
@@ -226,22 +320,6 @@
     <Compile Include="memory.aspx.designer.cs">
       <DependentUpon>memory.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Monitor.cs" />
-    <Compile Include="monitors.aspx.cs">
-      <DependentUpon>monitors.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="monitors.aspx.designer.cs">
-      <DependentUpon>monitors.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Network.cs" />
-    <Compile Include="networking.aspx.cs">
-      <DependentUpon>networking.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="networking.aspx.designer.cs">
-      <DependentUpon>networking.aspx</DependentUpon>
-    </Compile>
     <Compile Include="PC.cs" />
     <Compile Include="pcs.aspx.cs">
       <DependentUpon>pcs.aspx</DependentUpon>
@@ -249,14 +327,6 @@
     </Compile>
     <Compile Include="pcs.aspx.designer.cs">
       <DependentUpon>pcs.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Printer.cs" />
-    <Compile Include="printers.aspx.cs">
-      <DependentUpon>printers.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="printers.aspx.designer.cs">
-      <DependentUpon>printers.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PS3.cs" />

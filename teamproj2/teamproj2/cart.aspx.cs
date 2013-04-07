@@ -29,7 +29,7 @@ namespace teamproj2
         protected void Page_Load(object sender, EventArgs e)
         {
             conn = "data source=.\\SQLEXPRESS;Integrated Security=True;User Instance=True;AttachDBFilename=|DataDirectory|Database1.mdf;Integrated Security=True";
-            SqlConnection con = new SqlConnection(conn);
+            con = new SqlConnection(conn);
 
             del = Request.QueryString["del"];
             del2 = Convert.ToInt32(del);
@@ -42,6 +42,9 @@ namespace teamproj2
 
             main = Request.QueryString["main"];
             main2 = Convert.ToInt32(main);
+           
+                Session["M2"] = main2;
+                //Response.Redirect("cart.aspx");
         }
 
         protected void LoadCart()
@@ -60,8 +63,6 @@ namespace teamproj2
             }
             else
             {
-                int numCartItems = cartItems.Count;
-
                 decimal price = 0;
                 decimal total = 0;
                 int id2 = 0;
@@ -69,8 +70,9 @@ namespace teamproj2
                 string name = "";
                 string desc = "";
                 string picture = "";
-                int mm2 = 0;
                 string isit = "";
+
+                int numCartItems = cartItems.Count;
 
                 Response.Write("<table class='table'>");
                 Response.Write("<tr><th>Picture</th><th>Name</th><th>Quantity</th><th>Price</th><th>Compatibility</th><th>Action</th><th>Connecting Item</th></tr>");
@@ -94,14 +96,13 @@ namespace teamproj2
 
                         Response.Redirect("cart.aspx");
                     }
-
-                    if (upd2 == id2)
+                    else if (upd2 == id2)
                     {
                         item.Quant += 1;
 
                         Response.Redirect("cart.aspx");
                     }
-                    if (min2 == id2)
+                    else if (min2 == id2)
                     {
                         if (item.Quant > 1)
                         {
@@ -113,16 +114,9 @@ namespace teamproj2
                     }
 
                     isit = "Not enough items";
-                    //int m2=(int)Session["main"];
-
-
-                    //isit = "Not enough items";
-                    //int m3 = Convert.ToInt32(m2);
-                    Compatibility c2 = new Compatibility(main2, id2);
+                    Compatibility c2 = new Compatibility((int)Session["M2"], id2);
                     isit = c2.htmlButton();
-                    
-
-                    Response.Write("<tr><td><img src='" + picture + "'width='100px'/></td><td><a href='item.aspx?pid=" + id2 + "'>" + name + "</a></td><td align='center'><input class='span3' type='text' value='" + quant + "'><a href='cart.aspx?upd=" + id2 + "' class='btn btn-success'>+</a><a href='cart.aspx?min=" + id2 + "' class='btn btn-warning'>-</a></td><td>" + String.Format("{0:C}", price) + "</td><td>" + isit + "</td><td><a href='cart.aspx?del=" + id2 + "' class='btn btn-danger'>Delete</a></td><td><a href='cart.aspx?main=" + id2 + "' class='btn btn-danger'>Select</a></td></tr>");
+                    Response.Write("<tr><td><img src='" + picture + "'width='100px'/></td><td><a href='item.aspx?pid=" + id2 + "'>" + name + "</a></td><td align='center'><input class='span5' type='text' value='" + quant + "'><br><a href='cart.aspx?upd=" + id2 + "' class='btn btn-success'>+</a><a href='cart.aspx?min=" + id2 + "' class='btn btn-warning'>-</a></td><td>" + String.Format("{0:C}", price) + "</td><td>" + isit + "</td><td><a href='cart.aspx?del=" + id2 + "' class='btn btn-danger'>Delete</a></td><td><a href='cart.aspx?main=" + id2 + "' class='btn btn-danger'>Select</a></td></tr>");
                 }
 
                 Response.Write("</table>");
