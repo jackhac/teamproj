@@ -10,6 +10,7 @@
 				<li><a href="harddrives.aspx">Hard Drives</a></li>
 				<li><a href="cpus.aspx">Processors/CPUs</a></li>
 				<li><a href="memory.aspx">Memory/RAM</a></li>
+                <li><a href="motherboards.aspx">Motherboards</a></li>
 			</ul>
 		</div>
 		<div class="span10">
@@ -38,6 +39,10 @@
 			<li class="span2">
 				<center><a href="memory.aspx"><img src="img/cat-memory.jpg"/>
 				Memory/RAM</a></center>
+			</li>
+            <li class="span2">
+				<center><a href="motherboards.aspx"><img src="img/cat-motherboards.jpg"/>
+				Motherboards</a></center>
 			</li>
 		</ul>
 	</div>

@@ -5,10 +5,9 @@ using System.Web;
 using System.Data;
 using System.Data.SqlClient;
 
-
 namespace teamproj2
 {
-    public class Item
+    public class Motherboard
     {
         public int Id { get; set; }
         public decimal Price { get; set; }
@@ -21,23 +20,20 @@ namespace teamproj2
         public string MCategory2 { get; set; }
         public int SCategory { get; set; }
         public string SCategory2 { get; set; }
-        public int Views { get; set; }
 
-        public Item()
-        {
-         
-        }
-        public Item(int id2)
+        public Motherboard(int id2)
         {
             string conn = "data source=.\\SQLEXPRESS;Integrated Security=True;User Instance=True;AttachDBFilename=|DataDirectory|Database1.mdf;Integrated Security=True";
             SqlConnection con = new SqlConnection(conn);
             con.Open();
 
-            SqlCommand cmd = new SqlCommand("select * from Items where ID="+id2, con);
+            SqlCommand cmd = new SqlCommand("select * from Items where [Main Category]=2 and [Sub Category]=8" , con);
 
             SqlDataReader rdr = cmd.ExecuteReader();
-
-            rdr.Read();
+            for (int i = 0; i < id2; i++)
+            {
+                rdr.Read();
+            }
             
             this.Id=(int)rdr[0];
             this.Name = (string)rdr[1];
@@ -47,7 +43,6 @@ namespace teamproj2
             this.Picture = (string)rdr[4];
             this.MCategory = (int)rdr[5];
             this.SCategory = (int)rdr[6];
-            this.Views = (int)rdr[7];
             this.Quant = 1;
             con.Close();
 
@@ -56,10 +51,6 @@ namespace teamproj2
 
             SCategory sc = new SCategory(this.MCategory, this.SCategory);
             this.SCategory2 = sc.Name;
-        }
-        public void Update()
-        {
-            this.Views += 1;
         }
     }
 }

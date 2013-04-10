@@ -16,12 +16,13 @@ namespace teamproj2
         int pid2;
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            
            // string value = Request.QueryString["pid"];
             string pid=Request.QueryString["pid"];
             pid2 = Convert.ToInt32(pid);
             string addcart = Request.QueryString["addcart"];
-            
+            //Item item3 = new Item(pid2);
+            //item3.Views+=1
             if (pid==null)
             {
                 //System.Threading.Thread.SpinWait(5);
@@ -82,6 +83,12 @@ namespace teamproj2
         {
             Item item3 = new Item(pid2);
             Response.Write(item3.Id);
+        }
+        protected void displayViews()
+        {
+            Item item3 = new Item(pid2);
+            Response.Write(item3.Views);
+            item3.Update();
         }
     }
 }
