@@ -24,8 +24,9 @@
     	</ul>
     </div>
 </div></div> 
-Welcome <%=Session["username"] %>
-<div class="span12" id="topheader"><p align="right"><a href="cart.aspx">Shopping Cart</a>&nbsp;&nbsp;   <a href="login.aspx">Login</a>&nbsp;&nbsp; <a href="register.aspx">Register</a></p></div>
+Welcome <%=getUser() %>
+<div class="span12" id="topheader"><p align="right"><%=getLR() %></div>
+           
             <div class="row-fluid"> 
              
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder> 

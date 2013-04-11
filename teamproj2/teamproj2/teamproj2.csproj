@@ -50,6 +50,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="admin.aspx" />
+    <Content Include="adminlogin.aspx" />
+    <Content Include="adminlogout.aspx" />
+    <Content Include="adminsmanage.aspx" />
     <Content Include="App_Data\Database1.mdf" />
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
@@ -218,10 +222,12 @@
     <Content Include="img\W10.jpg" />
     <Content Include="img\xbox.jpg" />
     <Content Include="item.aspx" />
+    <Content Include="itemsmanage.aspx" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="laptops.aspx" />
     <Content Include="login.aspx" />
+    <Content Include="logout.aspx" />
     <Content Include="memory.aspx" />
     <Content Include="motherboards.aspx" />
     <Content Include="pcs.aspx" />
@@ -229,6 +235,7 @@
     <Content Include="register.aspx" />
     <Content Include="servers.aspx" />
     <Content Include="ultrabooks.aspx" />
+    <Content Include="usersmanage.aspx" />
     <Content Include="videocards.aspx" />
     <Content Include="videogames.aspx" />
     <Content Include="Web.config" />
@@ -242,6 +249,34 @@
     <Content Include="xbox360s.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="admin.aspx.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin.aspx.designer.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminlogin.aspx.cs">
+      <DependentUpon>adminlogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminlogin.aspx.designer.cs">
+      <DependentUpon>adminlogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminlogout.aspx.cs">
+      <DependentUpon>adminlogout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminlogout.aspx.designer.cs">
+      <DependentUpon>adminlogout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminsmanage.aspx.cs">
+      <DependentUpon>adminsmanage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminsmanage.aspx.designer.cs">
+      <DependentUpon>adminsmanage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="cart.aspx.cs">
       <DependentUpon>cart.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -310,6 +345,13 @@
       <DependentUpon>item.aspx</DependentUpon>
     </Compile>
     <Compile Include="Item.cs" />
+    <Compile Include="itemsmanage.aspx.cs">
+      <DependentUpon>itemsmanage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="itemsmanage.aspx.designer.cs">
+      <DependentUpon>itemsmanage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Laptop.cs" />
     <Compile Include="laptops.aspx.cs">
       <DependentUpon>laptops.aspx</DependentUpon>
@@ -324,6 +366,13 @@
     </Compile>
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logout.aspx.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logout.aspx.designer.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
     </Compile>
     <Compile Include="MCategory.cs" />
     <Compile Include="memory.aspx.cs">
@@ -390,6 +439,13 @@
     </Compile>
     <Compile Include="ultrabooks.aspx.designer.cs">
       <DependentUpon>ultrabooks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="usersmanage.aspx.cs">
+      <DependentUpon>usersmanage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usersmanage.aspx.designer.cs">
+      <DependentUpon>usersmanage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Videocard.cs" />
     <Compile Include="videocards.aspx.cs">
