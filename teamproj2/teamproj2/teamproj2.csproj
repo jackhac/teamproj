@@ -102,6 +102,7 @@
     <Content Include="img\10234478.jpg" />
     <Content Include="img\10234992.jpg" />
     <Content Include="img\10236912.jpg" />
+    <Content Include="img\10238187.jpg" />
     <Content Include="img\10238849.jpg" />
     <Content Include="img\10241346.jpg" />
     <Content Include="img\10481.jpg" />
@@ -180,6 +181,8 @@
     <Content Include="img\H50-11108-CA_chiclet01x_ibp_mn_7352764.jpg" />
     <Content Include="img\H50-11111-CA_chiclet01_ac_mn_7352767.jpg" />
     <Content Include="img\home_desktops2.jpg" />
+    <Content Include="img\home_gpus.jpg" />
+    <Content Include="img\home_harddrives.jpg" />
     <Content Include="img\home_laptops.jpg" />
     <Content Include="img\home_monitors.jpg" />
     <Content Include="img\home_networking.jpg" />

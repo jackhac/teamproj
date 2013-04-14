@@ -6,19 +6,13 @@
 <div id="myCarousel" class="carousel slide" style="width:650px">
                 <!-- Carousel items -->
                 <div class="carousel-inner">
-                <div class="active item">
-                    <img src="img/featurespot-g_T71-11133CASUB.jpg" alt="Feature Spot">
-                </div>
-                <div class="item">
-                    <img src="img/featurespot-p_B69-0997.jpg" alt="Feature Spot">
-                </div>
-                <div class="item">
-                    <img src="img/featurespot-stpat_I750-4200CA.jpg" alt="Feature Spot">
-                </div>
+                    <div class="active item">
+                        <a href="ultrabooks.aspx"><img src="img/featurespot-g_T71-11133CASUB.jpg" alt="Feature Spot"></a>
+                    </div>
                 </div>
                 <!-- Carousel nav -->
-                <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-                <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                <!--a class="carousel-control left" href="#myCarousel">&lsaquo;</a>
+                <a class="carousel-control right" href="#myCarousel">&rsaquo;</a>-->
                 
     </div><!--End of Carousel-->
     <h4>Our Most Popular Categories</h4>
@@ -33,11 +27,11 @@
 				Desktops</a></center>
 			</li>
 			<li class="span2">
-				<center><a href="ultrabooks.aspx"><img src="img/grey/cat-ultrabooks.jpg" alt="Ultrabooks"/>
+				<center><a href="ultrabooks.aspx"><img src="img/10238187.jpg" alt="Ultrabooks"/>
 				Ultrabooks</a></center>
 			</li>
 			<li class="span2">
-				<center><a href="videocards.aspx"><img src="img/cat-video-cards.jpg" alt="Video Cards"/>
+				<center><a href="videocards.aspx"><img src="img/home_gpus.jpg" alt="Video Cards"/>
 				Video Cards</a></center>
 			</li>
 			<li class="span2">
@@ -45,7 +39,7 @@
 				Gaming</a></center>
 			</li>
 			<li class="span2">
-				<center><a href="harddrives.aspx"><img src="img/cat-hard-drives.jpg" alt="Hard Drives"/>
+				<center><a href="harddrives.aspx"><img src="img/home_harddrives.jpg" alt="Hard Drives"/>
 				Hard Drives</a></center>
 			</li>
 		</ul>

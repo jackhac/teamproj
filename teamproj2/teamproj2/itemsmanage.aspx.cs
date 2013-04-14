@@ -53,12 +53,79 @@ namespace teamproj2
             if (add2 == 1)
             {
                 Response.Write("<form action='itemsmanage.aspx' method='post'>");
-                Response.Write("Name: <input type='text' name='aname'/><br>");
-                Response.Write("Description: <textarea rows='10' cols='30' name='adesc'></textarea><br>");
-                Response.Write("Price: <input type='text' name='aprice'/><br>");
-                Response.Write("Picture: <input type='text' name='apicture'/><br>");
-                Response.Write("Main Category: <input type='text' name='amcat'/><br>");
-                Response.Write("Sub Category: <input type='text' name='ascat'/><br>");
+                Response.Write("<table>");
+                Response.Write("<tr>");
+                Response.Write("<td>");
+                Response.Write("Name:");
+                Response.Write("</td>");
+                Response.Write("<td>");
+                Response.Write("<input type='text' name='aname'/><br>");
+                Response.Write("</td>");
+                Response.Write("</tr>");
+                Response.Write("<tr>");
+                Response.Write("<td>");
+                Response.Write("Description:<br>");
+                Response.Write("</td>");
+                Response.Write("<td>");
+                Response.Write("<textarea rows='10' cols='30' name='adesc'></textarea>");
+                Response.Write("</td>");
+                Response.Write("</tr>");
+
+
+                Response.Write("<tr>");
+                Response.Write("<td>");
+                Response.Write("Price:");
+                Response.Write("</td>");
+                Response.Write("<td>");
+                Response.Write("<input type='text' name='aprice'/>");
+                Response.Write("</td>");
+                Response.Write("</tr>");
+
+                Response.Write("<tr>");
+                Response.Write("<td>");
+                Response.Write("Picture:");
+                Response.Write("</td>");
+                Response.Write("<td>");
+                Response.Write("<input type='text' name='apicture'/>");
+                Response.Write("</td>");
+                Response.Write("</tr>");
+
+                Response.Write("<tr>");
+                Response.Write("<td>");
+                Response.Write("Main Category:");
+                Response.Write("</td>");
+                Response.Write("<td>");
+                Response.Write("<select name='amcat'>");
+                Response.Write("<option value='1'>Computers</option>");
+                Response.Write("<option value='2'>Computer Parts</option>");
+                Response.Write("<option value='3'>Video Games</option>");
+                Response.Write("</select>");
+                Response.Write("</td>");
+                Response.Write("</tr>");
+
+                Response.Write("<tr>");
+                Response.Write("<td>");
+                Response.Write("Sub Category:");
+                Response.Write("</td>");
+                Response.Write("<td>");
+                Response.Write("<select name='ascat'>");
+                Response.Write("<option value='1'>Laptops</option>");
+                Response.Write("<option value='2'>Ultrabooks</option>");
+                Response.Write("<option value='3'>Servers</option>");
+                Response.Write("<option value='4'>Desktops</option>");
+                Response.Write("<option value='1'>Video Cards</option>");
+                Response.Write("<option value='2'>Hard Drives</option>");
+                Response.Write("<option value='6'>CPUs</option>");
+                Response.Write("<option value='7'>Memory</option>");
+                Response.Write("<option value='8'>Motherboards</option>");
+                Response.Write("<option value='1'>XBOX 360</option>");
+                Response.Write("<option value='2'>Playstation 3</option>");
+                Response.Write("<option value='3'>Wii</option>");
+                Response.Write("<option value='4'>PC</option>");
+                Response.Write("</select>");
+                Response.Write("</td>");
+                Response.Write("</tr>");
+                Response.Write("</table>");
                 Response.Write("<input type='submit' value='Submit' />");
                 Response.Write("</form>");
             }
